@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: quote | Stephen Tseng]]></title>
+  <title><![CDATA[Category: Quote | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/quote/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-06-27T08:56:25-04:00</updated>
+  <updated>2014-06-27T11:40:19-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Be like a duck]]></title>
+    <title type="html"><![CDATA[Be Like a Duck]]></title>
     <link href="http://stephen.com/blog/2013/12/01/be-like-a-duck/"/>
     <updated>2013-12-01T00:00:00-05:00</updated>
     <id>http://stephen.com/blog/2013/12/01/be-like-a-duck</id>

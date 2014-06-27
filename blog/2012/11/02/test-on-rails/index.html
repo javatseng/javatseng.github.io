@@ -1,55 +1,79 @@
 
-<!DOCTYPE HTML>
-<html lang="en-GB">
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<title>Rails上写测试  | Stephen Tseng</title>
+  <meta charset="utf-8">
+  <title>Rails上写测试 - Stephen Tseng</title>
+  <meta name="author" content="Stephen Tseng">
 
-	<meta name="author" content="Stephen Tseng">
+  
+  <meta name="description" content="之前在做learn ruby the hard way的练习的时候，一直搞不懂为什么要写test，特别是是对完全没有编程背景的人来说，写test只会把学习弄的更复杂，但最近在做rails tutorial，跟着项目练习的演进，慢慢暸解RSpec，终于知道写test的好处，如果不写test的话， &hellip;">
+  
 
-<meta name="description" content="之前在做learn ruby the hard way的练习的时候，一直搞不懂为什么要写test，特别是是对完全没有编程背景的人来说，写test只会把学习弄的更复杂，但最近在做rails tutorial，跟着项目练习的演进，慢慢暸解RSpec，终于知道写test的好处，如果不写test的话， &hellip;"> <meta name="keywords" content="">
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="canonical" href="http://stephen.com/blog/2012/11/02/test-on-rails">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Stephen Tseng" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  
 
-	<link href="/atom.xml" rel="alternate" title="Stephen Tseng" type="application/atom+xml">
-	<link rel="canonical" href="">
-	<link href="/favicon.png" rel="shortcut icon">
-	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	
 </head>
 
-
-
-<body>
-	<header id="header" class="inner"><h1><a href="/">Stephen Tseng</a></h1>
-<span class="tagline">Startup, Life</span>
-<nav id="main-nav"><ul>
-	<li><a href="/about">About</a></li>
-	<li><a href="/archives">Archives</a></li>
-	<li><a href="/contact">Contact</a></li>
-</ul>
-</nav>
-<nav id="mobile-nav">
-	<div class="alignleft menu">
-		<a class="button">Menu</a>
-		<div class="container"><ul>
-	<li><a href="/about">About</a></li>
-	<li><a href="/archives">Archives</a></li>
-	<li><a href="/contact">Contact</a></li>
-</ul>
-</div>
-	</div>
-</nav>
-
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Stephen Tseng</a></h1>
+  
+    <h2>Startup, Life</h2>
+  
+</hgroup>
 
 </header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:stephen.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
 
-	<div id="content" class="inner"><article class="post">
-	<header>
-		<h2 class="title">Rails上写测试</h2>
-		<div class="meta date">
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Rails上写测试</h1>
+    
+    
+      <p class="meta">
+        
 
 
 
@@ -61,59 +85,98 @@
   
 
 
-<time datetime="2012-11-02T12:30:00-04:00" pubdate data-updated="true">Nov 2<sup>nd</sup>, 2012</time></div>
-	</header>
-	<div class="entry-content"><p>之前在做<a href="http://ruby.learncodethehardway.org/">learn ruby the hard way</a>的练习的时候，一直搞不懂为什么要写test，特别是是对完全没有编程背景的人来说，写test只会把学习弄的更复杂，但最近在做<a href="http://ruby.railstutorial.org/">rails tutorial</a>，跟着项目练习的演进，慢慢暸解RSpec，终于知道写test的好处，如果不写test的话，有时候代码出了问题，根本不知道从何找起，写了test，就可以很快的发现问题，并确保feature都没问题，但写test对新手来说还是很痛苦，想了想还是之后再好好学吧。</p>
-</div>
-	
-		<div class="meta">
-			<span class="comments"><a href="/blog/2012/11/02/test-on-rails/#disqus_thread">Comments</a></span>
-		</div>
-	
+<time datetime="2012-11-02T12:30:00-04:00" pubdate data-updated="true">Nov 2<sup>nd</sup>, 2012</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://stephen.com">Comments</a>
+        
+      </p>
+    
+  </header>
 
+
+<div class="entry-content"><p>之前在做<a href="http://ruby.learncodethehardway.org/">learn ruby the hard way</a>的练习的时候，一直搞不懂为什么要写test，特别是是对完全没有编程背景的人来说，写test只会把学习弄的更复杂，但最近在做<a href="http://ruby.railstutorial.org/">rails tutorial</a>，跟着项目练习的演进，慢慢暸解RSpec，终于知道写test的好处，如果不写test的话，有时候代码出了问题，根本不知道从何找起，写了test，就可以很快的发现问题，并确保feature都没问题，但写test对新手来说还是很痛苦，想了想还是之后再好好学吧。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Authored by <span class="fn">Stephen Tseng</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-02T12:30:00-04:00" pubdate data-updated="true">Nov 2<sup>nd</sup>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/rails/'>rails</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://stephen.com/blog/2012/11/02/test-on-rails/" data-via="" data-counturl="http://stephen.com/blog/2012/11/02/test-on-rails/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/10/27/editor-background-color/" title="Previous Post: 编辑器的背景色">&laquo; 编辑器的背景色</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/11/08/how-to-show-full-path-in-terminal/" title="Next Post: 如何在terminal里出现full path和host name">如何在terminal里出现full path和host name &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
 
-	
-	<div class="share">
-		<ul>
-			<li>
-  <a href="https://twitter.com/intent/tweet?text=Rails上写测试 by @&url=http://stephen.com/blog/2012/11/02/test-on-rails/" title="Share Rails上写测试 on Twitter">
-    <img src="/images/social/twitter.png" />
-  </a>
-</li>
-
-			<li>
-  <a href="https://www.facebook.com/sharer.php?u=http://stephen.com/blog/2012/11/02/test-on-rails/" title="Share Rails上写测试 on Facebook">
-    <img src="/images/social/facebook.png" />
-  </a>
-</li>
-
-			<li>
-  <a href="https://plus.google.com/share?url=http://stephen.com/blog/2012/11/02/test-on-rails/" title="Share Rails上写测试 on Google Plus">
-    <img src="/images/social/google.png" />
-  </a>
-</li>
-
-		</ul>
-	</div>
-
-
-
-
-<section id="comment">
-    <h2 class="title">Comments</h2>
+  <section>
+    <h1>Comments</h1>
     <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-</section>
-</div>
-	<footer id="footer" class="inner">&copy; 2014
+  </section>
 
-    Stephen Tseng
+
+</div>
+
+<aside class="sidebar">
+  
+    
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Stephen Tseng -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/lucaslew/whitespace">Whitespace</a></span>
+</p>
 
 </footer>
-	<script src="/javascripts/slash.js"></script>
-<script src="/javascripts/hyphenator.js"></script>
-
+  
 
 <script type="text/javascript">
       var disqus_shortname = 'stephentseng';
@@ -126,11 +189,29 @@
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
 
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
 
 
 
