@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://javatseng.github.io/atom.xml" rel="self"/>
-  <link href="http://javatseng.github.io/"/>
-  <updated>2014-06-26T23:55:20-04:00</updated>
-  <id>http://javatseng.github.io/</id>
+  <title><![CDATA[Stephen Tseng]]></title>
+  <link href="http://stephen.com/atom.xml" rel="self"/>
+  <link href="http://stephen.com/"/>
+  <updated>2014-06-26T23:58:13-04:00</updated>
+  <id>http://stephen.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Stephen Tseng]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Be Like a Duck]]></title>
-    <link href="http://javatseng.github.io/blog/2013/12/01/be-like-a-duck/"/>
+    <link href="http://stephen.com/blog/2013/12/01/be-like-a-duck/"/>
     <updated>2013-12-01T00:00:00-05:00</updated>
-    <id>http://javatseng.github.io/blog/2013/12/01/be-like-a-duck</id>
+    <id>http://stephen.com/blog/2013/12/01/be-like-a-duck</id>
     <content type="html"><![CDATA[<p>&ldquo;Be like a duck. Calm on the surface, but always paddling like the dickens underneath.&rdquo; &ndash; Michael Cain</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Custom Key Bindings in MailMate]]></title>
-    <link href="http://javatseng.github.io/blog/2013/11/25/custom-key-bindings-in-mailmate/"/>
+    <link href="http://stephen.com/blog/2013/11/25/custom-key-bindings-in-mailmate/"/>
     <updated>2013-11-25T19:10:00-05:00</updated>
-    <id>http://javatseng.github.io/blog/2013/11/25/custom-key-bindings-in-mailmate</id>
+    <id>http://stephen.com/blog/2013/11/25/custom-key-bindings-in-mailmate</id>
     <content type="html"><![CDATA[<p>I have been using <a href="http://freron.com/">MailMate</a> frequently. Personally, I would think it is a very geeky and one of the best wmail softwares in Mac. One of the strengths is, compared to other email clients, it is highly configurable. I have added one keybord binding to MailMate. The below is how I i did it:</p>
 
 <ol>
@@ -53,27 +53,27 @@
   
   <entry>
     <title type="html"><![CDATA[Fix RedCloth Error]]></title>
-    <link href="http://javatseng.github.io/blog/2013/11/22/fix-redcloth-error/"/>
+    <link href="http://stephen.com/blog/2013/11/22/fix-redcloth-error/"/>
     <updated>2013-11-22T15:32:00-05:00</updated>
-    <id>http://javatseng.github.io/blog/2013/11/22/fix-redcloth-error</id>
+    <id>http://stephen.com/blog/2013/11/22/fix-redcloth-error</id>
     <content type="html"><![CDATA[<p>When installing Octopress in my new Macbook Pro, I encountered an error from installing RedCloth. I just tried different ways from Google search. <a href="http://cjbrock.github.io/blog/2012/10/24/how-to-fix-a-red-cloth-error-while-installing-octopress/">This blog article</a> finally helped me solve this problem.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Could Not Start Spork Server for RSpec]]></title>
-    <link href="http://javatseng.github.io/blog/2013/09/08/could-not-start-spork-server-for-rspec/"/>
+    <link href="http://stephen.com/blog/2013/09/08/could-not-start-spork-server-for-rspec/"/>
     <updated>2013-09-08T00:00:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/09/08/could-not-start-spork-server-for-rspec</id>
+    <id>http://stephen.com/blog/2013/09/08/could-not-start-spork-server-for-rspec</id>
     <content type="html"><![CDATA[<p>Try to install <a href="https://github.com/sporkrb/spork">Spork</a> and <a href="https://github.com/guard/guard">Guard</a> in order to run Rspec more efficiently. After installing both of them, I typed <code>Guard</code>. Then, the message <code>Could not start Spork server for RSpec</code> came out in terminal. In the end, I found out that when I shut down my VPN, the server started successfully. I guess it took too long to run the code with VPN.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Using Pinboard in Command Line]]></title>
-    <link href="http://javatseng.github.io/blog/2013/09/07/using-pinboard-in-command-line/"/>
+    <link href="http://stephen.com/blog/2013/09/07/using-pinboard-in-command-line/"/>
     <updated>2013-09-07T00:00:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/09/07/using-pinboard-in-command-line</id>
+    <id>http://stephen.com/blog/2013/09/07/using-pinboard-in-command-line</id>
     <content type="html"><![CDATA[<p>I have been using <a href="https://pinboard.in">Pinboard</a> for a while. It is  a very powerful bookmarking service with minimum interface. Now I can use <a href="https://github.com/badboy/pinboard-cli">CLI</a> with pinboard. All I have to do is to install a gem and put a api token.</p>
 
 <p><em>Install</em></p>
@@ -88,9 +88,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to Install Wget in Mac OS]]></title>
-    <link href="http://javatseng.github.io/blog/2013/09/02/how-to-install-wget-in-mac-os/"/>
+    <link href="http://stephen.com/blog/2013/09/02/how-to-install-wget-in-mac-os/"/>
     <updated>2013-09-02T00:00:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/09/02/how-to-install-wget-in-mac-os</id>
+    <id>http://stephen.com/blog/2013/09/02/how-to-install-wget-in-mac-os</id>
     <content type="html"><![CDATA[<p>Wget is a very powerful CLI tool. However, Mac doesn&rsquo;t have it by default. There are several ways to install. The easiest way is to use homebrew to install. Of course, homebrew has to be installed beforehand. All you need to do is type one command line:</p>
 
 <p><code>$ brew install wget</code></p>
@@ -99,9 +99,9 @@
   
   <entry>
     <title type="html"><![CDATA[Home Key on Macbook Pro]]></title>
-    <link href="http://javatseng.github.io/blog/2013/06/17/home-key-on-macbook-pro/"/>
+    <link href="http://stephen.com/blog/2013/06/17/home-key-on-macbook-pro/"/>
     <updated>2013-06-17T19:07:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/06/17/home-key-on-macbook-pro</id>
+    <id>http://stephen.com/blog/2013/06/17/home-key-on-macbook-pro</id>
     <content type="html"><![CDATA[<p>Mac app TaskPaper is my daily-use GTD app. I have digg the shortcut of TaskPaper. However, there were three shortcuts I could not figure out. They are home key and page up/down key. There are no suck keys on my Macbook pro keyboard. After posting my question on TaskPaper forum. someone answered my question:</p>
 
 <p><code>Home key = command+fn+left arrow</code></p>
@@ -112,9 +112,9 @@
   
   <entry>
     <title type="html"><![CDATA[Change H and L Keys in Vimperator]]></title>
-    <link href="http://javatseng.github.io/blog/2013/06/10/change-h-and-l-keys-in-vimperator/"/>
+    <link href="http://stephen.com/blog/2013/06/10/change-h-and-l-keys-in-vimperator/"/>
     <updated>2013-06-10T18:34:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/06/10/change-h-and-l-keys-in-vimperator</id>
+    <id>http://stephen.com/blog/2013/06/10/change-h-and-l-keys-in-vimperator</id>
     <content type="html"><![CDATA[<p>I have used Firefox plug-in Vimperator for a while. The default shortcut of back and forward is <code>shift + H</code> and <code>shift + L</code> in Vimperator. I found it is not efficiency enough to type two keys. I added two lines to <code>vimrc</code> file:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -130,9 +130,9 @@ With this setting, I can just type H or L key once to back or forward.</p>
   
   <entry>
     <title type="html"><![CDATA[Open New Window in Vim]]></title>
-    <link href="http://javatseng.github.io/blog/2013/06/07/open-new-window-in-vim/"/>
+    <link href="http://stephen.com/blog/2013/06/07/open-new-window-in-vim/"/>
     <updated>2013-06-07T17:28:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/06/07/open-new-window-in-vim</id>
+    <id>http://stephen.com/blog/2013/06/07/open-new-window-in-vim</id>
     <content type="html"><![CDATA[<p>The below are the frequently-used shortcuts for vim window:</p>
 
 <ul>
@@ -146,9 +146,9 @@ With this setting, I can just type H or L key once to back or forward.</p>
   
   <entry>
     <title type="html"><![CDATA[Switch Between Vim and Terminal]]></title>
-    <link href="http://javatseng.github.io/blog/2013/06/07/switch-between-vim-and-terminal/"/>
+    <link href="http://stephen.com/blog/2013/06/07/switch-between-vim-and-terminal/"/>
     <updated>2013-06-07T16:51:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/06/07/switch-between-vim-and-terminal</id>
+    <id>http://stephen.com/blog/2013/06/07/switch-between-vim-and-terminal</id>
     <content type="html"><![CDATA[<p>One of Vim&rsquo;s advantages is that you can switch between vim and terminal when using terminai. Here is the shortcut:</p>
 
 <p>Opne vim in terminal: <code>vim</code></p>
@@ -161,9 +161,9 @@ With this setting, I can just type H or L key once to back or forward.</p>
   
   <entry>
     <title type="html"><![CDATA[Octoeditor]]></title>
-    <link href="http://javatseng.github.io/blog/2013/05/14/octoeditor/"/>
+    <link href="http://stephen.com/blog/2013/05/14/octoeditor/"/>
     <updated>2013-05-14T18:56:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/05/14/octoeditor</id>
+    <id>http://stephen.com/blog/2013/05/14/octoeditor</id>
     <content type="html"><![CDATA[<p>I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, write, and upload a blog all in Vim. In this way, I don&rsquo;t need to switch between termainal and Vim. After searching for a proper plug-in, I foud a plug-in called <a href="https://github.com/glidenote/octoeditor.vim?source=cc">Octoeditor</a>. With this plug-in, you can do it all in Vim with sevaral shortcuts. Here is my shortcuts:</p>
 
 <p>Crate a blog <code>map &lt;Leader&gt;on  :OctopressNew&lt;CR&gt;</code>
@@ -175,36 +175,36 @@ Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
   
   <entry>
     <title type="html"><![CDATA[Hack Caps Lock Ley]]></title>
-    <link href="http://javatseng.github.io/blog/2013/05/03/hack-caps-lock-ley/"/>
+    <link href="http://stephen.com/blog/2013/05/03/hack-caps-lock-ley/"/>
     <updated>2013-05-03T10:40:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/05/03/hack-caps-lock-ley</id>
+    <id>http://stephen.com/blog/2013/05/03/hack-caps-lock-ley</id>
     <content type="html"><![CDATA[<p>I have been using shortcuts on my Mac keybard recently. The more I use shortcuts, the more I found <code>caps lock key</code> is useless. I decided to replace <code>caps lock key</code> with <code>esc</code>. I found <a href="http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en">PCKeybardHack</a> is a pretty easy solution.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Quote2]]></title>
-    <link href="http://javatseng.github.io/blog/2013/04/30/quote2/"/>
+    <link href="http://stephen.com/blog/2013/04/30/quote2/"/>
     <updated>2013-04-30T23:25:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/04/30/quote2</id>
+    <id>http://stephen.com/blog/2013/04/30/quote2</id>
     <content type="html"><![CDATA[<p>Emacs is a good operating system, but it lacks a good editor. ~Old saying .</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Quote]]></title>
-    <link href="http://javatseng.github.io/blog/2013/04/30/quote/"/>
+    <link href="http://stephen.com/blog/2013/04/30/quote/"/>
     <updated>2013-04-30T22:45:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/04/30/quote</id>
+    <id>http://stephen.com/blog/2013/04/30/quote</id>
     <content type="html"><![CDATA[<p>The true delight is in the <em>finding</em> out rather than in the <em>knowing</em>. ~Isaac Asimovg</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Vim Swap File]]></title>
-    <link href="http://javatseng.github.io/blog/2013/04/28/vim-swap-file/"/>
+    <link href="http://stephen.com/blog/2013/04/28/vim-swap-file/"/>
     <updated>2013-04-28T18:48:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/04/28/vim-swap-file</id>
+    <id>http://stephen.com/blog/2013/04/28/vim-swap-file</id>
     <content type="html"><![CDATA[<p>I have started to learn how to use Vim recently. The first thing I need to learn is to use Vim to write my blog in Octopress. The one advatage of using Vim is that you fire up Vim inside Termial. Itmight make workflow easier. However. when I finished my article and <code>deploy rake</code>. Here error came.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -238,9 +238,9 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
   
   <entry>
     <title type="html"><![CDATA[Vimperator]]></title>
-    <link href="http://javatseng.github.io/blog/2013/04/27/vimperator/"/>
+    <link href="http://stephen.com/blog/2013/04/27/vimperator/"/>
     <updated>2013-04-27T17:21:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/04/27/vimperator</id>
+    <id>http://stephen.com/blog/2013/04/27/vimperator</id>
     <content type="html"><![CDATA[<p>I had been using Chrome for a while. However, I found Chrome occupies too many memory. So, I decided to switch back to FireFox which I had used it for 6 years.</p>
 
 <p>When I learned how to use FireFox again, I discovered a extension called <a href="http://www.vimperator.org/about">&ldquo;Vimperator&rdquo;</a>. It can make FireFox Vim-like browser. At this moment, I am not familiar with Vim. But I decided to give Vimperator a shot. It did lead me to another world. Now I can not live without Vimperator when I browse the internet. At the beginning, it was difficult to use Vimperator. But the more I practice, the more efficiency I am. Now I am interested to learn more about Vim and its design philosophy. I am glad that I tried Vimperator. I find Vim&rsquo;s concept is everywhere. It is a skill set for long-term use.</p>
@@ -249,9 +249,9 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
   
   <entry>
     <title type="html"><![CDATA[Vim Tutorial]]></title>
-    <link href="http://javatseng.github.io/blog/2013/04/18/vim-tutorial/"/>
+    <link href="http://stephen.com/blog/2013/04/18/vim-tutorial/"/>
     <updated>2013-04-18T11:25:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/04/18/vim-tutorial</id>
+    <id>http://stephen.com/blog/2013/04/18/vim-tutorial</id>
     <content type="html"><![CDATA[<p>I started to learn how to use <a href="http://www.vim.org/">Vim</a>. The fist challenge is I could not find where the official tutorial is. After searching the answer on line, I find this <a href="http://vim.1045645.n5.nabble.com/ViM-Tutorial-td1218542.html">article</a>. The answer is easy. Just fire up terminal and type</p>
 
 <p><code>vimtutor</code></p>
@@ -262,9 +262,9 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
   
   <entry>
     <title type="html"><![CDATA[Workbench]]></title>
-    <link href="http://javatseng.github.io/blog/2013/03/14/workbench/"/>
+    <link href="http://stephen.com/blog/2013/03/14/workbench/"/>
     <updated>2013-03-14T16:36:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/03/14/workbench</id>
+    <id>http://stephen.com/blog/2013/03/14/workbench</id>
     <content type="html"><![CDATA[<p>Drupal is a very powerful CMS and known for its flexibility. Due to its flexibility, it has been very developer-friendly. However, the interface of Drupal CMS could be very confusing to site administrators who don&rsquo;t have technical background.</p>
 
 <p>It always takes us time to teach our clients how to publish and edit pages. Due to complexity of Drupal CMS, it is easy for our clients to be lost in the backend.</p>
@@ -275,18 +275,18 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
   
   <entry>
     <title type="html"><![CDATA[Minimal Twitter]]></title>
-    <link href="http://javatseng.github.io/blog/2013/03/04/minimal-twitter/"/>
+    <link href="http://stephen.com/blog/2013/03/04/minimal-twitter/"/>
     <updated>2013-03-04T17:29:00-05:00</updated>
-    <id>http://javatseng.github.io/blog/2013/03/04/minimal-twitter</id>
+    <id>http://stephen.com/blog/2013/03/04/minimal-twitter</id>
     <content type="html"><![CDATA[<p>I found this browser extension(Safari, Chrome) on line. It makes  my twitter interface minimal. It brings me less distraction and more concentration. I really enjoy <a href="http://jxnblk.com/twipster/">Twipster</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Drupal, Joomla, WordPress那个CMS比较好?]]></title>
-    <link href="http://javatseng.github.io/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/"/>
+    <link href="http://stephen.com/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/"/>
     <updated>2013-03-01T17:28:00-05:00</updated>
-    <id>http://javatseng.github.io/blog/2013/03/01/drupal-vs-joomla-vs-wordpress</id>
+    <id>http://stephen.com/blog/2013/03/01/drupal-vs-joomla-vs-wordpress</id>
     <content type="html"><![CDATA[<p>Drupal, WordPress, Joomla是世界上最多人使用的<a href="http://w3techs.com/technologies/overview/content_management/all">三大内容管理系统</a>，大家经常会讨论那个内容管理系统比较好，事实上，这三个内容管理系统各有优缺点，很难说绝对的好坏，在国外的网站computerworld里面，有一篇从各方面<a href="http://www.computerworld.com/s/article/9219685/Site_builder_shootout_Drupal_vs._Joomla_vs._WordPress?taxonomyId=169&amp;pageNumber=1">比较了Drupal, WordPress,Joomla</a>三个内容管理系统，整体来说还挺客观的，如果想知道三个内容管理系统的差别，推荐阅读这篇文章。</p>
 
 <p><img src="http://www.kuqin.com/upimg/allimg/110731/2102511633-0.jpg" alt="drupal vs WordPress vs Joomla" /></p>

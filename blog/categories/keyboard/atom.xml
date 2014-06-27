@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Keyboard | My Octopress Blog]]></title>
-  <link href="http://javatseng.github.io/blog/categories/keyboard/atom.xml" rel="self"/>
-  <link href="http://javatseng.github.io/"/>
-  <updated>2014-06-26T23:55:20-04:00</updated>
-  <id>http://javatseng.github.io/</id>
+  <title><![CDATA[Category: Keyboard | Stephen Tseng]]></title>
+  <link href="http://stephen.com/blog/categories/keyboard/atom.xml" rel="self"/>
+  <link href="http://stephen.com/"/>
+  <updated>2014-06-26T23:58:13-04:00</updated>
+  <id>http://stephen.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Stephen Tseng]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Home Key on Macbook Pro]]></title>
-    <link href="http://javatseng.github.io/blog/2013/06/17/home-key-on-macbook-pro/"/>
+    <link href="http://stephen.com/blog/2013/06/17/home-key-on-macbook-pro/"/>
     <updated>2013-06-17T19:07:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/06/17/home-key-on-macbook-pro</id>
+    <id>http://stephen.com/blog/2013/06/17/home-key-on-macbook-pro</id>
     <content type="html"><![CDATA[<p>Mac app TaskPaper is my daily-use GTD app. I have digg the shortcut of TaskPaper. However, there were three shortcuts I could not figure out. They are home key and page up/down key. There are no suck keys on my Macbook pro keyboard. After posting my question on TaskPaper forum. someone answered my question:</p>
 
 <p><code>Home key = command+fn+left arrow</code></p>

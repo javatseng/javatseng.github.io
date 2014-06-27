@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Firefox | My Octopress Blog]]></title>
-  <link href="http://javatseng.github.io/blog/categories/firefox/atom.xml" rel="self"/>
-  <link href="http://javatseng.github.io/"/>
-  <updated>2014-06-26T23:55:20-04:00</updated>
-  <id>http://javatseng.github.io/</id>
+  <title><![CDATA[Category: Firefox | Stephen Tseng]]></title>
+  <link href="http://stephen.com/blog/categories/firefox/atom.xml" rel="self"/>
+  <link href="http://stephen.com/"/>
+  <updated>2014-06-26T23:58:13-04:00</updated>
+  <id>http://stephen.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Stephen Tseng]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Vimperator]]></title>
-    <link href="http://javatseng.github.io/blog/2013/04/27/vimperator/"/>
+    <link href="http://stephen.com/blog/2013/04/27/vimperator/"/>
     <updated>2013-04-27T17:21:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/04/27/vimperator</id>
+    <id>http://stephen.com/blog/2013/04/27/vimperator</id>
     <content type="html"><![CDATA[<p>I had been using Chrome for a while. However, I found Chrome occupies too many memory. So, I decided to switch back to FireFox which I had used it for 6 years.</p>
 
 <p>When I learned how to use FireFox again, I discovered a extension called <a href="http://www.vimperator.org/about">&ldquo;Vimperator&rdquo;</a>. It can make FireFox Vim-like browser. At this moment, I am not familiar with Vim. But I decided to give Vimperator a shot. It did lead me to another world. Now I can not live without Vimperator when I browse the internet. At the beginning, it was difficult to use Vimperator. But the more I practice, the more efficiency I am. Now I am interested to learn more about Vim and its design philosophy. I am glad that I tried Vimperator. I find Vim&rsquo;s concept is everywhere. It is a skill set for long-term use.</p>

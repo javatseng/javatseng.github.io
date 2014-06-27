@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Drupal | My Octopress Blog]]></title>
-  <link href="http://javatseng.github.io/blog/categories/drupal/atom.xml" rel="self"/>
-  <link href="http://javatseng.github.io/"/>
-  <updated>2014-06-26T23:55:20-04:00</updated>
-  <id>http://javatseng.github.io/</id>
+  <title><![CDATA[Category: Drupal | Stephen Tseng]]></title>
+  <link href="http://stephen.com/blog/categories/drupal/atom.xml" rel="self"/>
+  <link href="http://stephen.com/"/>
+  <updated>2014-06-26T23:58:13-04:00</updated>
+  <id>http://stephen.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Stephen Tseng]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Workbench]]></title>
-    <link href="http://javatseng.github.io/blog/2013/03/14/workbench/"/>
+    <link href="http://stephen.com/blog/2013/03/14/workbench/"/>
     <updated>2013-03-14T16:36:00-04:00</updated>
-    <id>http://javatseng.github.io/blog/2013/03/14/workbench</id>
+    <id>http://stephen.com/blog/2013/03/14/workbench</id>
     <content type="html"><![CDATA[<p>Drupal is a very powerful CMS and known for its flexibility. Due to its flexibility, it has been very developer-friendly. However, the interface of Drupal CMS could be very confusing to site administrators who don&rsquo;t have technical background.</p>
 
 <p>It always takes us time to teach our clients how to publish and edit pages. Due to complexity of Drupal CMS, it is easy for our clients to be lost in the backend.</p>
@@ -28,9 +28,9 @@
   
   <entry>
     <title type="html"><![CDATA[Drupal, Joomla, WordPress那个CMS比较好?]]></title>
-    <link href="http://javatseng.github.io/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/"/>
+    <link href="http://stephen.com/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/"/>
     <updated>2013-03-01T17:28:00-05:00</updated>
-    <id>http://javatseng.github.io/blog/2013/03/01/drupal-vs-joomla-vs-wordpress</id>
+    <id>http://stephen.com/blog/2013/03/01/drupal-vs-joomla-vs-wordpress</id>
     <content type="html"><![CDATA[<p>Drupal, WordPress, Joomla是世界上最多人使用的<a href="http://w3techs.com/technologies/overview/content_management/all">三大内容管理系统</a>，大家经常会讨论那个内容管理系统比较好，事实上，这三个内容管理系统各有优缺点，很难说绝对的好坏，在国外的网站computerworld里面，有一篇从各方面<a href="http://www.computerworld.com/s/article/9219685/Site_builder_shootout_Drupal_vs._Joomla_vs._WordPress?taxonomyId=169&amp;pageNumber=1">比较了Drupal, WordPress,Joomla</a>三个内容管理系统，整体来说还挺客观的，如果想知道三个内容管理系统的差别，推荐阅读这篇文章。</p>
 
 <p><img src="http://www.kuqin.com/upimg/allimg/110731/2102511633-0.jpg" alt="drupal vs WordPress vs Joomla" /></p>
@@ -44,18 +44,18 @@
   
   <entry>
     <title type="html"><![CDATA[Drush]]></title>
-    <link href="http://javatseng.github.io/blog/2013/02/02/drush/"/>
+    <link href="http://stephen.com/blog/2013/02/02/drush/"/>
     <updated>2013-02-02T09:58:00-05:00</updated>
-    <id>http://javatseng.github.io/blog/2013/02/02/drush</id>
+    <id>http://stephen.com/blog/2013/02/02/drush</id>
     <content type="html"><![CDATA[<p>今天花了一点时间安装了可以利用command line控制Drupal网站的工具<a href="https://drupal.org/project/drush">Drush</a> (the Drupal Shell)，试着下载了一个module，觉得速度非常的快而且方便，花了一点时间读了一下THe Definitive Guilde to Drupal7有关于Drush的章节，发现Drush的功能非常的强大，而且还可以装extension。</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The Definitive Guide to Drupal 7]]></title>
-    <link href="http://javatseng.github.io/blog/2013/01/28/the-definitive-guide-to-drupal-7/"/>
+    <link href="http://stephen.com/blog/2013/01/28/the-definitive-guide-to-drupal-7/"/>
     <updated>2013-01-28T17:21:00-05:00</updated>
-    <id>http://javatseng.github.io/blog/2013/01/28/the-definitive-guide-to-drupal-7</id>
+    <id>http://stephen.com/blog/2013/01/28/the-definitive-guide-to-drupal-7</id>
     <content type="html"><![CDATA[<p>最近在同事推荐下开始读了关于Drupal的书籍<a href="http://www.amazon.com/Definitive-Guide-Drupal-Apress/dp/1430231351">The Definitive Guide to Drupal 7</a>，这本书共有一千多页，里面的内容涵盖非常的全面，总Drupal7的搭建、项目的管理、社区的参与到模块的开发等等几乎都涵盖了，广度非常的够，几乎开发网站时所涉及的事情里面都提到了，真的可以说是Drupal7的百科全书，非常值得好好一读。</p>
 
 <p><img src="http://ecx.images-amazon.com/images/I/51vl3W5tLXL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg" alt="dgd7" /></p>
