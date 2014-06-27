@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux | My Octopress Blog]]></title>
+  <link href="http://javatseng.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://javatseng.github.io/"/>
+  <updated>2014-06-26T23:55:20-04:00</updated>
+  <id>http://javatseng.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WGET Tool]]></title>
+    <link href="http://javatseng.github.io/blog/2013/01/28/wget-tool/"/>
+    <updated>2013-01-28T17:44:00-05:00</updated>
+    <id>http://javatseng.github.io/blog/2013/01/28/wget-tool</id>
+    <content type="html"><![CDATA[<p>在MAC的Terminal里面没有预装WGET Tool，所以无法执行WGET命令，网上百度了一下找到安装的命令行：</p>
+
+<p><code>
+curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
+tar -xzvf wget-1.13.tar.gz
+cd wget-1.13
+./configure --with-ssl=openssl
+make
+sudo make install
+which wget  #Should output: /usr/local/bin/wget
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

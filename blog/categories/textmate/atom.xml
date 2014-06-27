@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Textmate | My Octopress Blog]]></title>
+  <link href="http://javatseng.github.io/blog/categories/textmate/atom.xml" rel="self"/>
+  <link href="http://javatseng.github.io/"/>
+  <updated>2014-06-26T23:55:20-04:00</updated>
+  <id>http://javatseng.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[编辑器的背景色]]></title>
+    <link href="http://javatseng.github.io/blog/2012/10/27/editor-background-color/"/>
+    <updated>2012-10-27T13:25:00-04:00</updated>
+    <id>http://javatseng.github.io/blog/2012/10/27/editor-background-color</id>
+    <content type="html"><![CDATA[<p>因为在学编程，编辑器使用的越来越多，一开始用的都是白色底色，后来发现很多programmer用的都是黑色底色加上高亮颜色的字，最近把<strong>textmate</strong>换成黑底高亮的字，果然看代码更清楚。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[如何在textmate上安装scss档案支持]]></title>
+    <link href="http://javatseng.github.io/blog/2012/10/25/how-to-install-scss-support-package-in-textmate/"/>
+    <updated>2012-10-25T11:09:00-04:00</updated>
+    <id>http://javatseng.github.io/blog/2012/10/25/how-to-install-scss-support-package-in-textmate</id>
+    <content type="html"><![CDATA[<p>最近textmate用的比较多，在做ruby on rails tutorial需要创建scss档案，创建了后发现textmate不支持，问了一下google大神，找到安装代码：</p>
+
+<p><code>
+mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+cd ~/Library/Application\ Support/TextMate/Bundles
+git clone https://github.com/kuroir/SCSS.tmbundle.git "SCSS.tmbundle"
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

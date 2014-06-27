@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | My Octopress Blog]]></title>
+  <link href="http://javatseng.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://javatseng.github.io/"/>
+  <updated>2014-06-26T23:55:20-04:00</updated>
+  <id>http://javatseng.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octoeditor]]></title>
+    <link href="http://javatseng.github.io/blog/2013/05/14/octoeditor/"/>
+    <updated>2013-05-14T18:56:00-04:00</updated>
+    <id>http://javatseng.github.io/blog/2013/05/14/octoeditor</id>
+    <content type="html"><![CDATA[<p>I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, write, and upload a blog all in Vim. In this way, I don&rsquo;t need to switch between termainal and Vim. After searching for a proper plug-in, I foud a plug-in called <a href="https://github.com/glidenote/octoeditor.vim?source=cc">Octoeditor</a>. With this plug-in, you can do it all in Vim with sevaral shortcuts. Here is my shortcuts:</p>
+
+<p>Crate a blog <code>map &lt;Leader&gt;on  :OctopressNew&lt;CR&gt;</code>
+List all blogd <code>map &lt;Leader&gt;ol  :OctopressList&lt;CR&gt;</code>
+Rake Generate <code>map &lt;Leader&gt;og  :OctopressGenerate&lt;CR&gt;</code>
+Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
+]]></content>
+  </entry>
+  
+</feed>
