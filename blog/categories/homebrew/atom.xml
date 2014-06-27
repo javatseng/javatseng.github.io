@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Homebrew | Stephen Tseng]]></title>
+  <title><![CDATA[Category: homebrew | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/homebrew/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-06-26T23:58:13-04:00</updated>
+  <updated>2014-06-27T00:05:34-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[How to Install Wget in Mac OS]]></title>
+    <title type="html"><![CDATA[How to install wget in Mac OS]]></title>
     <link href="http://stephen.com/blog/2013/09/02/how-to-install-wget-in-mac-os/"/>
     <updated>2013-09-02T00:00:00-04:00</updated>
     <id>http://stephen.com/blog/2013/09/02/how-to-install-wget-in-mac-os</id>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Keyboard | Stephen Tseng]]></title>
+  <title><![CDATA[Category: keyboard | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/keyboard/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-06-26T23:58:13-04:00</updated>
+  <updated>2014-06-27T00:05:34-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Home Key on Macbook Pro]]></title>
+    <title type="html"><![CDATA[Home key on Macbook pro]]></title>
     <link href="http://stephen.com/blog/2013/06/17/home-key-on-macbook-pro/"/>
     <updated>2013-06-17T19:07:00-04:00</updated>
     <id>http://stephen.com/blog/2013/06/17/home-key-on-macbook-pro</id>
