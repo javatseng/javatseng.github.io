@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Vimperator | Stephen Tseng]]></title>
+  <title><![CDATA[Category: vimperator | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/vimperator/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-06-27T08:52:06-04:00</updated>
+  <updated>2014-06-27T08:56:25-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Change H and L Keys in Vimperator]]></title>
+    <title type="html"><![CDATA[Change h and l keys in Vimperator]]></title>
     <link href="http://stephen.com/blog/2013/06/10/change-h-and-l-keys-in-vimperator/"/>
     <updated>2013-06-10T18:34:00-04:00</updated>
     <id>http://stephen.com/blog/2013/06/10/change-h-and-l-keys-in-vimperator</id>

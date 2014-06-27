@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Mac | Stephen Tseng]]></title>
+  <title><![CDATA[Category: mac | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-06-27T08:52:06-04:00</updated>
+  <updated>2014-06-27T08:56:25-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Custom Key Bindings in MailMate]]></title>
+    <title type="html"><![CDATA[Custom key bindings in MailMate]]></title>
     <link href="http://stephen.com/blog/2013/11/25/custom-key-bindings-in-mailmate/"/>
     <updated>2013-11-25T19:10:00-05:00</updated>
     <id>http://stephen.com/blog/2013/11/25/custom-key-bindings-in-mailmate</id>
@@ -44,7 +44,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Hack Caps Lock Ley]]></title>
+    <title type="html"><![CDATA[Hack caps lock ley]]></title>
     <link href="http://stephen.com/blog/2013/05/03/hack-caps-lock-ley/"/>
     <updated>2013-05-03T10:40:00-04:00</updated>
     <id>http://stephen.com/blog/2013/05/03/hack-caps-lock-ley</id>
@@ -53,7 +53,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[如何在terminal里出现full Path和host Name]]></title>
+    <title type="html"><![CDATA[如何在terminal里出现full path和host name]]></title>
     <link href="http://stephen.com/blog/2012/11/08/how-to-show-full-path-in-terminal/"/>
     <updated>2012-11-08T17:45:00-05:00</updated>
     <id>http://stephen.com/blog/2012/11/08/how-to-show-full-path-in-terminal</id>

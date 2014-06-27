@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Markdown | Stephen Tseng]]></title>
+  <title><![CDATA[Category: markdown | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/markdown/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-06-27T08:52:06-04:00</updated>
+  <updated>2014-06-27T08:56:25-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -23,7 +23,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Markdown的编辑器]]></title>
+    <title type="html"><![CDATA[markdown的编辑器]]></title>
     <link href="http://stephen.com/blog/2012/10/25/markdown-editor/"/>
     <updated>2012-10-25T23:28:00-04:00</updated>
     <id>http://stephen.com/blog/2012/10/25/markdown-editor</id>

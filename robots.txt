@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: 
 
-Sitemap: http://stephen.com/sitemap.xml
+Sitemap: http://stephen.com/sitemap.xml 

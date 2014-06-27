@@ -1,82 +1,63 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html lang="en-GB">
 <head>
-  <meta charset="utf-8">
-  <title>Stephen Tseng</title>
-  <meta name="author" content="Stephen Tseng">
+	<meta charset="utf-8">
+	<title>Startup, Life  | Stephen Tseng</title>
 
-  
-  <meta name="description" content="I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, &hellip;">
-  
+	<meta name="author" content="Stephen Tseng">
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://stephen.com/posts/2">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Stephen Tseng" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-  
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+	<link href="/atom.xml" rel="alternate" title="Stephen Tseng" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
 </head>
 
-<body   class="collapse-sidebar sidebar-footer" >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Stephen Tseng</a></h1>
-  
-    <h2>Startup, Life</h2>
-  
-</hgroup>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Stephen Tseng</a></h1>
+<span class="tagline">Startup, Life</span>
+<nav id="main-nav"><ul>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archives</a></li>
+	<li><a href="/contact">Contact</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/about">About</a></li>
+	<li><a href="/archives">Archives</a></li>
+	<li><a href="/contact">Contact</a></li>
+</ul>
+</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:stephen.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/14/octoeditor/">Octoeditor</a></h1>
-    
-    
-      <p class="meta">
-        
+	<div id="content" class="inner">
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/05/14/octoeditor/">
+			
+				Octoeditor</a>
+		</h2>
+		<div class="meta date">
 
 
 
@@ -88,78 +69,32 @@
   
 
 
-<time datetime="2013-05-14T18:56:00-04:00" pubdate data-updated="true">May 14<sup>th</sup>, 2013</time>
-        
-           | <a href="/blog/2013/05/14/octoeditor/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/05/14/octoeditor/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, write, and upload a blog all in Vim. In this way, I don&rsquo;t need to switch between termainal and Vim. After searching for a proper plug-in, I foud a plug-in called <a href="https://github.com/glidenote/octoeditor.vim?source=cc">Octoeditor</a>. With this plug-in, you can do it all in Vim with sevaral shortcuts. Here is my shortcuts:</p>
+<time datetime="2013-05-14T18:56:00-04:00" pubdate data-updated="true">May 14<sup>th</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, write, and upload a blog all in Vim. In this way, I don&rsquo;t need to switch between termainal and Vim. After searching for a proper plug-in, I foud a plug-in called <a href="https://github.com/glidenote/octoeditor.vim?source=cc">Octoeditor</a>. With this plug-in, you can do it all in Vim with sevaral shortcuts. Here is my shortcuts:</p>
 
 <p>Crate a blog <code>map &lt;Leader&gt;on  :OctopressNew&lt;CR&gt;</code>
 List all blogd <code>map &lt;Leader&gt;ol  :OctopressList&lt;CR&gt;</code>
 Rake Generate <code>map &lt;Leader&gt;og  :OctopressGenerate&lt;CR&gt;</code>
 Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
-</div>
-  
-  
+
+		
+		
+	</div>
+
+</article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/03/hack-caps-lock-ley/">Hack Caps Lock Ley</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-03T10:40:00-04:00" pubdate data-updated="true">May 3<sup>rd</sup>, 2013</time>
-        
-           | <a href="/blog/2013/05/03/hack-caps-lock-ley/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/05/03/hack-caps-lock-ley/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have been using shortcuts on my Mac keybard recently. The more I use shortcuts, the more I found <code>caps lock key</code> is useless. I decided to replace <code>caps lock key</code> with <code>esc</code>. I found <a href="http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en">PCKeybardHack</a> is a pretty easy solution.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/30/quote2/">Quote2</a></h1>
-    
-    
-      <p class="meta">
-        
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/05/03/hack-caps-lock-ley/">
+			
+				Hack Caps Lock Ley</a>
+		</h2>
+		<div class="meta date">
 
 
 
@@ -171,34 +106,27 @@ Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
   
 
 
-<time datetime="2013-04-30T23:25:00-04:00" pubdate data-updated="true">Apr 30<sup>th</sup>, 2013</time>
-        
-           | <a href="/blog/2013/04/30/quote2/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/04/30/quote2/">Comments</a>
-        
-      </p>
-    
-  </header>
+<time datetime="2013-05-03T10:40:00-04:00" pubdate data-updated="true">May 3<sup>rd</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>I have been using shortcuts on my Mac keybard recently. The more I use shortcuts, the more I found <code>caps lock key</code> is useless. I decided to replace <code>caps lock key</code> with <code>esc</code>. I found <a href="http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en">PCKeybardHack</a> is a pretty easy solution.</p>
+
+		
+		
+	</div>
+
+</article>
 
 
-  <div class="entry-content"><p>Emacs is a good operating system, but it lacks a good editor. ~Old saying .</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/30/quote/">Quote</a></h1>
-    
-    
-      <p class="meta">
-        
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/04/30/quote2/">
+			
+				Quote2</a>
+		</h2>
+		<div class="meta date">
 
 
 
@@ -210,34 +138,27 @@ Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
   
 
 
-<time datetime="2013-04-30T22:45:00-04:00" pubdate data-updated="true">Apr 30<sup>th</sup>, 2013</time>
-        
-           | <a href="/blog/2013/04/30/quote/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/04/30/quote/">Comments</a>
-        
-      </p>
-    
-  </header>
+<time datetime="2013-04-30T23:25:00-04:00" pubdate data-updated="true">Apr 30<sup>th</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>Emacs is a good operating system, but it lacks a good editor. ~Old saying .</p>
+
+		
+		
+	</div>
+
+</article>
 
 
-  <div class="entry-content"><p>The true delight is in the <em>finding</em> out rather than in the <em>knowing</em>. ~Isaac Asimovg</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/28/vim-swap-file/">Vim Swap File</a></h1>
-    
-    
-      <p class="meta">
-        
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/04/30/quote/">
+			
+				Quote</a>
+		</h2>
+		<div class="meta date">
 
 
 
@@ -249,17 +170,42 @@ Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
   
 
 
-<time datetime="2013-04-28T18:48:00-04:00" pubdate data-updated="true">Apr 28<sup>th</sup>, 2013</time>
-        
-           | <a href="/blog/2013/04/28/vim-swap-file/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/04/28/vim-swap-file/">Comments</a>
-        
-      </p>
-    
-  </header>
+<time datetime="2013-04-30T22:45:00-04:00" pubdate data-updated="true">Apr 30<sup>th</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>The true delight is in the <em>finding</em> out rather than in the <em>knowing</em>. ~Isaac Asimovg</p>
+
+		
+		
+	</div>
+
+</article>
 
 
-  <div class="entry-content"><p>I have started to learn how to use Vim recently. The first thing I need to learn is to use Vim to write my blog in Octopress. The one advatage of using Vim is that you fire up Vim inside Termial. Itmight make workflow easier. However. when I finished my article and <code>deploy rake</code>. Here error came.</p>
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/04/28/vim-swap-file/">
+			
+				Vim Swap File</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-28T18:48:00-04:00" pubdate data-updated="true">Apr 28<sup>th</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>I have started to learn how to use Vim recently. The first thing I need to learn is to use Vim to write my blog in Octopress. The one advatage of using Vim is that you fire up Vim inside Termial. Itmight make workflow easier. However. when I finished my article and <code>deploy rake</code>. Here error came.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -287,189 +233,129 @@ Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
 
 <p>
 The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
-</div>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/04/27/vimperator/">
+			
+				Vimperator</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/27/vimperator/">Vimperator</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-27T17:21:00-04:00" pubdate data-updated="true">Apr 27<sup>th</sup>, 2013</time>
-        
-           | <a href="/blog/2013/04/27/vimperator/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/04/27/vimperator/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I had been using Chrome for a while. However, I found Chrome occupies too many memory. So, I decided to switch back to FireFox which I had used it for 6 years.</p>
+<time datetime="2013-04-27T17:21:00-04:00" pubdate data-updated="true">Apr 27<sup>th</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>I had been using Chrome for a while. However, I found Chrome occupies too many memory. So, I decided to switch back to FireFox which I had used it for 6 years.</p>
 
 <p>When I learned how to use FireFox again, I discovered a extension called <a href="http://www.vimperator.org/about">&ldquo;Vimperator&rdquo;</a>. It can make FireFox Vim-like browser. At this moment, I am not familiar with Vim. But I decided to give Vimperator a shot. It did lead me to another world. Now I can not live without Vimperator when I browse the internet. At the beginning, it was difficult to use Vimperator. But the more I practice, the more efficiency I am. Now I am interested to learn more about Vim and its design philosophy. I am glad that I tried Vimperator. I find Vim&rsquo;s concept is everywhere. It is a skill set for long-term use.</p>
-</div>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/04/18/vim-tutorial/">
+			
+				Vim Tutorial</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/18/vim-tutorial/">Vim Tutorial</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-18T11:25:00-04:00" pubdate data-updated="true">Apr 18<sup>th</sup>, 2013</time>
-        
-           | <a href="/blog/2013/04/18/vim-tutorial/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/04/18/vim-tutorial/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I started to learn how to use <a href="http://www.vim.org/">Vim</a>. The fist challenge is I could not find where the official tutorial is. After searching the answer on line, I find this <a href="http://vim.1045645.n5.nabble.com/ViM-Tutorial-td1218542.html">article</a>. The answer is easy. Just fire up terminal and type</p>
+<time datetime="2013-04-18T11:25:00-04:00" pubdate data-updated="true">Apr 18<sup>th</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>I started to learn how to use <a href="http://www.vim.org/">Vim</a>. The fist challenge is I could not find where the official tutorial is. After searching the answer on line, I find this <a href="http://vim.1045645.n5.nabble.com/ViM-Tutorial-td1218542.html">article</a>. The answer is easy. Just fire up terminal and type</p>
 
 <p><code>vimtutor</code></p>
 
 <p>Then, it is done.</p>
-</div>
+
+		
+		
+	</div>
+
+</article>
+
+
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/03/14/workbench/">
+			
+				Workbench</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
   
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/14/workbench/">Workbench</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-14T16:36:00-04:00" pubdate data-updated="true">Mar 14<sup>th</sup>, 2013</time>
-        
-           | <a href="/blog/2013/03/14/workbench/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/03/14/workbench/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Drupal is a very powerful CMS and known for its flexibility. Due to its flexibility, it has been very developer-friendly. However, the interface of Drupal CMS could be very confusing to site administrators who don&rsquo;t have technical background.</p>
+<time datetime="2013-03-14T16:36:00-04:00" pubdate data-updated="true">Mar 14<sup>th</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>Drupal is a very powerful CMS and known for its flexibility. Due to its flexibility, it has been very developer-friendly. However, the interface of Drupal CMS could be very confusing to site administrators who don&rsquo;t have technical background.</p>
 
 <p>It always takes us time to teach our clients how to publish and edit pages. Due to complexity of Drupal CMS, it is easy for our clients to be lost in the backend.</p>
 
 <p><a href="http://drupal.org/project/workbench">Workbench</a> is a great module for administrators who often publish and edit pages. With Workbench, user can see recent articles he/she has published and edited under one page. It becomes very easy to manage articles.</p>
-</div>
-  
-  
+
+		
+		
+	</div>
+
+</article>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/04/minimal-twitter/">Minimal Twitter</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-04T17:29:00-05:00" pubdate data-updated="true">Mar 4<sup>th</sup>, 2013</time>
-        
-           | <a href="/blog/2013/03/04/minimal-twitter/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/03/04/minimal-twitter/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I found this browser extension(Safari, Chrome) on line. It makes  my twitter interface minimal. It brings me less distraction and more concentration. I really enjoy <a href="http://jxnblk.com/twipster/">Twipster</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/">Drupal, Joomla, WordPress那个CMS比较好?</a></h1>
-    
-    
-      <p class="meta">
-        
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/03/04/minimal-twitter/">
+			
+				Minimal Twitter</a>
+		</h2>
+		<div class="meta date">
 
 
 
@@ -481,17 +367,42 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
   
 
 
-<time datetime="2013-03-01T17:28:00-05:00" pubdate data-updated="true">Mar 1<sup>st</sup>, 2013</time>
-        
-           | <a href="/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/#disqus_thread"
-             data-disqus-identifier="http://stephen.com/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/">Comments</a>
-        
-      </p>
-    
-  </header>
+<time datetime="2013-03-04T17:29:00-05:00" pubdate data-updated="true">Mar 4<sup>th</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>I found this browser extension(Safari, Chrome) on line. It makes  my twitter interface minimal. It brings me less distraction and more concentration. I really enjoy <a href="http://jxnblk.com/twipster/">Twipster</a>.</p>
+
+		
+		
+	</div>
+
+</article>
 
 
-  <div class="entry-content"><p>Drupal, WordPress, Joomla是世界上最多人使用的<a href="http://w3techs.com/technologies/overview/content_management/all">三大内容管理系统</a>，大家经常会讨论那个内容管理系统比较好，事实上，这三个内容管理系统各有优缺点，很难说绝对的好坏，在国外的网站computerworld里面，有一篇从各方面<a href="http://www.computerworld.com/s/article/9219685/Site_builder_shootout_Drupal_vs._Joomla_vs._WordPress?taxonomyId=169&amp;pageNumber=1">比较了Drupal, WordPress,Joomla</a>三个内容管理系统，整体来说还挺客观的，如果想知道三个内容管理系统的差别，推荐阅读这篇文章。</p>
+    <article class="post">
+	<header>
+		<h2 class="title">
+			
+			<a href="/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/">
+			
+				Drupal, Joomla, WordPress那个CMS比较好?</a>
+		</h2>
+		<div class="meta date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-01T17:28:00-05:00" pubdate data-updated="true">Mar 1<sup>st</sup>, 2013</time></div>
+	</header>
+	<div class="entry-content">
+		<p>Drupal, WordPress, Joomla是世界上最多人使用的<a href="http://w3techs.com/technologies/overview/content_management/all">三大内容管理系统</a>，大家经常会讨论那个内容管理系统比较好，事实上，这三个内容管理系统各有优缺点，很难说绝对的好坏，在国外的网站computerworld里面，有一篇从各方面<a href="http://www.computerworld.com/s/article/9219685/Site_builder_shootout_Drupal_vs._Joomla_vs._WordPress?taxonomyId=169&amp;pageNumber=1">比较了Drupal, WordPress,Joomla</a>三个内容管理系统，整体来说还挺客观的，如果想知道三个内容管理系统的差别，推荐阅读这篇文章。</p>
 
 <p><img src="http://www.kuqin.com/upimg/allimg/110731/2102511633-0.jpg" alt="drupal vs WordPress vs Joomla" /></p>
 
@@ -499,40 +410,32 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
 <li>原发布于dminorstudio的博客</li>
 </ul>
 
+
+		
+		
+	</div>
+
+</article>
+
+
+    <nav id="pagenavi">
+        
+            <a href="1" class="prev">Previous</a>
+        
+        
+            <a href="3" class="next">Next</a>
+        
+    </nav>
+
 </div>
-  
-  
+	<footer id="footer" class="inner">&copy; 2014
 
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/posts/3">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-    <a class="next" href="/index.html">Newer &rarr;</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Stephen Tseng -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/lucaslew/whitespace">Whitespace</a></span>
-</p>
+    Stephen Tseng
 
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/hyphenator.js"></script>
+
 
 <script type="text/javascript">
       var disqus_shortname = 'stephentseng';
@@ -542,29 +445,11 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
 
-
-
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 
