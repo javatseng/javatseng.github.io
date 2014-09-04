@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephen.com/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-09-04T17:06:14-04:00</updated>
+  <updated>2014-09-04T17:12:12-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Test]]></title>
-    <link href="http://stephen.com/blog/2014/09/04/test/"/>
-    <updated>2014-09-04T17:05:31-04:00</updated>
-    <id>http://stephen.com/blog/2014/09/04/test</id>
-    <content type="html"><![CDATA[<p>test</p>
+    <title type="html"><![CDATA[Gene]]></title>
+    <link href="http://stephen.com/blog/2014/09/04/gene/"/>
+    <updated>2014-09-04T17:11:33-04:00</updated>
+    <id>http://stephen.com/blog/2014/09/04/gene</id>
+    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
