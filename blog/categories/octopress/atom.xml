@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Octopress | Stephen Tseng]]></title>
-  <link href="http://stephen.com/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://stephen.com/"/>
-  <updated>2014-09-06T08:21:48-04:00</updated>
-  <id>http://stephen.com/</id>
+  <link href="http://stephentseng.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2014-09-06T08:37:16-04:00</updated>
+  <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Octopress Publisher]]></title>
-    <link href="http://stephen.com/blog/2014/09/06/octopress-publisher/"/>
+    <link href="http://stephentseng.com/blog/2014/09/06/octopress-publisher/"/>
     <updated>2014-09-06T07:54:17-04:00</updated>
-    <id>http://stephen.com/blog/2014/09/06/octopress-publisher</id>
+    <id>http://stephentseng.com/blog/2014/09/06/octopress-publisher</id>
     <content type="html"><![CDATA[<p>I need to deal with Drupal and WordPress during my daily work. When it comes to my personal blog, I want something lightweight, simple, and straightforward. After trying different blog platform, I decided to stay with <a href="http://octopress.org/">Octopress</a>.</p>
 
 <p>While using Octopress several times, I realized I always had to fire up terminal and type the certain commands, e,g <code>rake deploy</code> and <code>rake generate</code>. Thus, I started to think how I could automate this receptive work. I tried several solutions, e.g keyboard mastero macro and BBEdit applescript. Finally, I found the simplest workflow for myself, <a href="http://www.alfredapp.com/">Alred</a> and <a href="http://www.alfredforum.com/topic/2289-octopress-publisher/">Octopress publisher</a> workflow.</p>
@@ -99,9 +99,9 @@ rake deploy >> /dev/null</p>
   
   <entry>
     <title type="html"><![CDATA[Octoeditor]]></title>
-    <link href="http://stephen.com/blog/2013/05/14/octoeditor/"/>
+    <link href="http://stephentseng.com/blog/2013/05/14/octoeditor/"/>
     <updated>2013-05-14T18:56:00-04:00</updated>
-    <id>http://stephen.com/blog/2013/05/14/octoeditor</id>
+    <id>http://stephentseng.com/blog/2013/05/14/octoeditor</id>
     <content type="html"><![CDATA[<p>I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, write, and upload a blog all in Vim. In this way, I don&rsquo;t need to switch between termainal and Vim. After searching for a proper plug-in, I foud a plug-in called <a href="https://github.com/glidenote/octoeditor.vim?source=cc">Octoeditor</a>. With this plug-in, you can do it all in Vim with sevaral shortcuts. Here is my shortcuts:</p>
 
 <p>Crate a blog <code>map &lt;Leader&gt;on  :OctopressNew&lt;CR&gt;</code>

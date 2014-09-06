@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Quote | Stephen Tseng]]></title>
-  <link href="http://stephen.com/blog/categories/quote/atom.xml" rel="self"/>
-  <link href="http://stephen.com/"/>
-  <updated>2014-09-06T08:21:48-04:00</updated>
-  <id>http://stephen.com/</id>
+  <link href="http://stephentseng.com/blog/categories/quote/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2014-09-06T08:37:16-04:00</updated>
+  <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Be Like a Duck]]></title>
-    <link href="http://stephen.com/blog/2013/12/01/be-like-a-duck/"/>
+    <link href="http://stephentseng.com/blog/2013/12/01/be-like-a-duck/"/>
     <updated>2013-12-01T00:00:00-05:00</updated>
-    <id>http://stephen.com/blog/2013/12/01/be-like-a-duck</id>
+    <id>http://stephentseng.com/blog/2013/12/01/be-like-a-duck</id>
     <content type="html"><![CDATA[<p>&ldquo;Be like a duck. Calm on the surface, but always paddling like the dickens underneath.&rdquo; &ndash; Michael Cain</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Quote]]></title>
-    <link href="http://stephen.com/blog/2013/04/30/quote/"/>
+    <link href="http://stephentseng.com/blog/2013/04/30/quote/"/>
     <updated>2013-04-30T22:45:00-04:00</updated>
-    <id>http://stephen.com/blog/2013/04/30/quote</id>
+    <id>http://stephentseng.com/blog/2013/04/30/quote</id>
     <content type="html"><![CDATA[<p>The true delight is in the <em>finding</em> out rather than in the <em>knowing</em>. ~Isaac Asimovg</p>
 ]]></content>
   </entry>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Markdown | Stephen Tseng]]></title>
-  <link href="http://stephen.com/blog/categories/markdown/atom.xml" rel="self"/>
-  <link href="http://stephen.com/"/>
-  <updated>2014-09-06T08:21:48-04:00</updated>
-  <id>http://stephen.com/</id>
+  <link href="http://stephentseng.com/blog/categories/markdown/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2014-09-06T08:37:16-04:00</updated>
+  <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Markdown网上编辑器]]></title>
-    <link href="http://stephen.com/blog/2012/10/26/markable/"/>
+    <link href="http://stephentseng.com/blog/2012/10/26/markable/"/>
     <updated>2012-10-26T17:02:00-04:00</updated>
-    <id>http://stephen.com/blog/2012/10/26/markable</id>
+    <id>http://stephentseng.com/blog/2012/10/26/markable</id>
     <content type="html"><![CDATA[<p>Markdown的网上编辑器网上有好几个，自己试了几个后发现比较好用的是<a href="http://markable.in/">markable</a> ，这一个编辑器目前还处于beta版，但对于新手来说应该够用了，除了有<a href="http://markable.in/file/aa191728-9dc7-11e1-91c7-984be164924a/">Markdown Syntax Cheat Sheet</a> 可以参考外，也可以直接save到dropbox里，非常的方便。</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Markdown的编辑器]]></title>
-    <link href="http://stephen.com/blog/2012/10/25/markdown-editor/"/>
+    <link href="http://stephentseng.com/blog/2012/10/25/markdown-editor/"/>
     <updated>2012-10-25T23:28:00-04:00</updated>
-    <id>http://stephen.com/blog/2012/10/25/markdown-editor</id>
+    <id>http://stephentseng.com/blog/2012/10/25/markdown-editor</id>
     <content type="html"><![CDATA[<p>自从用了Octopress后，编辑文档都要用markdown，本来想用textmate编辑，但发现不太支持中文，google了一下，发现要改来改去又太麻烦，找了一款编辑器叫<a href="http://mouapp.com/">Mou</a> ，应该是华人写的，用起来还蛮顺手的，强力推荐。</p>
 ]]></content>
   </entry>
