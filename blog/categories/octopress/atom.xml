@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-09-06T08:13:34-04:00</updated>
+  <updated>2014-09-06T08:21:48-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -18,9 +18,9 @@
     <link href="http://stephen.com/blog/2014/09/06/octopress-publisher/"/>
     <updated>2014-09-06T07:54:17-04:00</updated>
     <id>http://stephen.com/blog/2014/09/06/octopress-publisher</id>
-    <content type="html"><![CDATA[<p>I need to deal with Drupal and WordPress during my daily work. When it comes to my personal blog, I want something lightweight, simple, and straightforward. After trying different blog platform, I decided to stay with <a href="http://octopress.org/" title="Octopress">Octopress</a>.</p>
+    <content type="html"><![CDATA[<p>I need to deal with Drupal and WordPress during my daily work. When it comes to my personal blog, I want something lightweight, simple, and straightforward. After trying different blog platform, I decided to stay with <a href="http://octopress.org/">Octopress</a>.</p>
 
-<p>While using Octopress several times, I realized I always had to fire up terminal and type the certain commands, e,g <code>rake deploy</code> and <code>rake generate</code>. Thus, I started to think how I could automate this receptive work. I tried several solutions, e.g keyboard mastero macro and BBEdit applescript. Finally, I found the simplest workflow for myself, <a href="http://www.alfredapp.com/" title="Alfred App - Productivity App for Mac OS X">Alred</a> and <a href="http://www.alfredforum.com/topic/2289-octopress-publisher/" title="Octopress publisher - Share your Workflows - Alfred App Community Forum">Octopress publisher</a> workflow.</p>
+<p>While using Octopress several times, I realized I always had to fire up terminal and type the certain commands, e,g <code>rake deploy</code> and <code>rake generate</code>. Thus, I started to think how I could automate this receptive work. I tried several solutions, e.g keyboard mastero macro and BBEdit applescript. Finally, I found the simplest workflow for myself, <a href="http://www.alfredapp.com/">Alred</a> and <a href="http://www.alfredforum.com/topic/2289-octopress-publisher/">Octopress publisher</a> workflow.</p>
 
 <p>It is easier to generate and publish post to Octopress through Octoppress publisher. All I need to do is type keyword <code>blog</code> and <code>blog generate</code> in my Alfred. It is done.</p>
 
