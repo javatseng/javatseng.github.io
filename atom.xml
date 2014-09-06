@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephen.com/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-09-04T17:14:25-04:00</updated>
+  <updated>2014-09-06T08:00:01-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,105 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Publisher]]></title>
+    <link href="http://stephen.com/blog/2014/09/06/octopress-publisher/"/>
+    <updated>2014-09-06T07:54:17-04:00</updated>
+    <id>http://stephen.com/blog/2014/09/06/octopress-publisher</id>
+    <content type="html"><![CDATA[<p>I need to deal with Drupal and WordPress during my daily work. When it comes to my personal blog, I want something lightweight, simple, and straightforward. After trying different blog platform, I decided to stay with <a href="http://octopress.org/" title="Octopress">Octopress</a>.</p>
+
+<p>While using Octopress several times, I realized I always had to fire up terminal and type the certain commands, e,g <code>rake deploy</code> and <code>rake generate</code>. Thus, I started to think how I could automate this receptive work. I tried several solutions, e.g keyboard mastero macro and BBEdit applescript. Finally, I found the simplest workflow for myself, <a href="http://www.alfredapp.com/" title="Alfred App - Productivity App for Mac OS X">Alred</a> and <a href="http://www.alfredforum.com/topic/2289-octopress-publisher/" title="Octopress publisher - Share your Workflows - Alfred App Community Forum">Octopress publisher</a> workflow.</p>
+
+<p>It is easier to generate and publish post to Octopress through Octoppress publisher. All I need to do is type keyword <code>blog</code> and <code>blog generate</code> in my Alfred. It is done.</p>
+
+<p>When I installed Octopress publisher in the beginning. The function of <code>blog generate</code> didn&rsquo;t work. I looked into the script and added one line script. It works as I wish now.</p>
+
+<h1>Original script</h1>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>
+</span><span class='line'>#!/bin/bash
+</span><span class='line'>
+</span><span class='line'>#Path to your octopress installation
+</span><span class='line'>OCTOPATH='/Users/stephentseng/Dropbox/octopress'
+</span><span class='line'>
+</span><span class='line'>if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then
+</span><span class='line'>      source "$HOME/.rvm/scripts/rvm"
+</span><span class='line'>fi
+</span><span class='line'>
+</span><span class='line'>cd $OCTOPATH &gt;&gt; /dev/null
+</span><span class='line'>rvm use 1.9.3@octopress &gt;&gt; /dev/null
+</span><span class='line'>rake generate &gt;&gt; /dev/null
+</span><span class='line'>
+</span><span class='line'>if [[ $? -eq 0 ]] ; then
+</span><span class='line'>    echo "Blog generated successfully!"
+</span><span class='line'>else
+</span><span class='line'>    echo "Errors while generating static content. Check the console."
+</span><span class='line'>fi</span></code></pre></td></tr></table></div></figure>
+
+
+<h1>Modified script</h1>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>#!/bin/bash
+</span><span class='line'>
+</span><span class='line'>#Path to your octopress installation
+</span><span class='line'>OCTOPATH='/Users/stephentseng/Dropbox/octopress'
+</span><span class='line'>
+</span><span class='line'>if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then
+</span><span class='line'>      source "$HOME/.rvm/scripts/rvm"
+</span><span class='line'>fi
+</span><span class='line'>
+</span><span class='line'>cd $OCTOPATH &gt;&gt; /dev/null
+</span><span class='line'>rvm use 1.9.3@octopress &gt;&gt; /dev/null
+</span><span class='line'>rake generate &gt;&gt; /dev/null
+</span><span class='line'>rake deploy &gt;&gt; /dev/null
+</span><span class='line'>
+</span><span class='line'>if [[ $? -eq 0 ]] ; then
+</span><span class='line'>    echo "Blog generated successfully!"
+</span><span class='line'>else
+</span><span class='line'>    echo "Errors while generating static content. Check the console."
+</span><span class='line'>fi</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Be Like a Duck]]></title>
@@ -279,22 +378,6 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
     <updated>2013-03-04T17:29:00-05:00</updated>
     <id>http://stephen.com/blog/2013/03/04/minimal-twitter</id>
     <content type="html"><![CDATA[<p>I found this browser extension(Safari, Chrome) on line. It makes  my twitter interface minimal. It brings me less distraction and more concentration. I really enjoy <a href="http://jxnblk.com/twipster/">Twipster</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Drupal, Joomla, WordPress那个CMS比较好?]]></title>
-    <link href="http://stephen.com/blog/2013/03/01/drupal-vs-joomla-vs-wordpress/"/>
-    <updated>2013-03-01T17:28:00-05:00</updated>
-    <id>http://stephen.com/blog/2013/03/01/drupal-vs-joomla-vs-wordpress</id>
-    <content type="html"><![CDATA[<p>Drupal, WordPress, Joomla是世界上最多人使用的<a href="http://w3techs.com/technologies/overview/content_management/all">三大内容管理系统</a>，大家经常会讨论那个内容管理系统比较好，事实上，这三个内容管理系统各有优缺点，很难说绝对的好坏，在国外的网站computerworld里面，有一篇从各方面<a href="http://www.computerworld.com/s/article/9219685/Site_builder_shootout_Drupal_vs._Joomla_vs._WordPress?taxonomyId=169&amp;pageNumber=1">比较了Drupal, WordPress,Joomla</a>三个内容管理系统，整体来说还挺客观的，如果想知道三个内容管理系统的差别，推荐阅读这篇文章。</p>
-
-<p><img src="http://www.kuqin.com/upimg/allimg/110731/2102511633-0.jpg" alt="drupal vs WordPress vs Joomla" /></p>
-
-<ul>
-<li>原发布于dminorstudio的博客</li>
-</ul>
-
 ]]></content>
   </entry>
   
