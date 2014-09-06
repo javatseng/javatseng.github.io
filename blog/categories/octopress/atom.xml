@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-09-06T08:07:30-04:00</updated>
+  <updated>2014-09-06T08:10:56-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -28,7 +28,7 @@
 
 <h1>Original script</h1>
 
-<p>```shell</p>
+<p>```bash</p>
 
 <h1>!/bin/bash</h1>
 
@@ -62,7 +62,7 @@ rake generate >> /dev/null</p>
 
 <h1>Modified script</h1>
 
-<p>```shell</p>
+<p>```bash</p>
 
 <h1>!/bin/bash</h1>
 
