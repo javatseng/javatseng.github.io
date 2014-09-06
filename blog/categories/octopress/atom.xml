@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Stephen Tseng]]></title>
   <link href="http://stephen.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://stephen.com/"/>
-  <updated>2014-09-06T08:10:56-04:00</updated>
+  <updated>2014-09-06T08:13:34-04:00</updated>
   <id>http://stephen.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -26,7 +26,7 @@
 
 <p>When I installed Octopress publisher in the beginning. The function of <code>blog generate</code> didn&rsquo;t work. I looked into the script and added one line script. It works as I wish now.</p>
 
-<h1>Original script</h1>
+<p><strong>Original script</strong></p>
 
 <p>```bash</p>
 
@@ -60,7 +60,7 @@ rake generate >> /dev/null</p>
 <p>fi
 ```</p>
 
-<h1>Modified script</h1>
+<p><strong>Modified script</strong></p>
 
 <p>```bash</p>
 
