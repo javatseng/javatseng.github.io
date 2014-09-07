@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Vimperator | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/vimperator/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T15:49:22-04:00</updated>
+  <updated>2014-09-07T15:59:17-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -23,7 +23,7 @@
 <p><code>
 noremap h &lt;S-h&gt;
 noremap l &lt;S-l&gt;
-</code>
+</code> 
 With this setting, I can just type H or L key once to back or forward.</p>
 ]]></content>
   </entry>
