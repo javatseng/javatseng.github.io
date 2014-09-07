@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T16:06:06-04:00</updated>
+  <updated>2014-09-07T16:25:36-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -20,15 +20,14 @@
     <id>http://stephentseng.com/blog/2013/01/28/wget-tool</id>
     <content type="html"><![CDATA[<p>在MAC的Terminal里面没有预装WGET Tool，所以无法执行WGET命令，网上百度了一下找到安装的命令行：</p>
 
-<p><code>
-curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
+<pre><code>curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
 tar -xzvf wget-1.13.tar.gz
 cd wget-1.13
 ./configure --with-ssl=openssl
 make
 sudo make install
 which wget  #Should output: /usr/local/bin/wget 
-</code></p>
+</code></pre>
 ]]></content>
   </entry>
   

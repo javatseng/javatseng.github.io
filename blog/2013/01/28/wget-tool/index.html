@@ -103,20 +103,21 @@ tar -xzvf wget-1.13.tar &hellip;">
 
 <div class="entry-content"><p>在MAC的Terminal里面没有预装WGET Tool，所以无法执行WGET命令，网上百度了一下找到安装的命令行：</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
-</span><span class="line">tar -xzvf wget-1.13.tar.gz
-</span><span class="line">cd wget-1.13
-</span><span class="line">./configure --with-ssl=openssl
-</span><span class="line">make
-</span><span class="line">sudo make install
-</span><span class="line">which wget  #Should output: /usr/local/bin/wget </span></code></pre></td></tr></table></div></figure></notextile></div>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
+</span><span class='line'>tar -xzvf wget-1.13.tar.gz
+</span><span class='line'>cd wget-1.13
+</span><span class='line'>./configure --with-ssl=openssl
+</span><span class='line'>make
+</span><span class='line'>sudo make install
+</span><span class='line'>which wget  #Should output: /usr/local/bin/wget </span></code></pre></td></tr></table></div></figure>
+
 </div>
 
 

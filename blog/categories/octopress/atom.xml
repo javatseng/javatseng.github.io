@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T16:06:06-04:00</updated>
+  <updated>2014-09-07T16:25:36-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -18,27 +18,24 @@
     <link href="http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting/"/>
     <updated>2014-09-07T15:20:59-04:00</updated>
     <id>http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting</id>
-    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language type[^http://pygments.org/docs/lexers] after <code>backtick</code>. </p>
+    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language type after <code>backtick</code>. [^<a href="http://pygments.org/docs/lexers">http://pygments.org/docs/lexers</a>]</p>
 
 <p><strong>The source</strong></p>
 
 <p><code>
 </code>html</p>
-<p>test<p>
 
- ```
-```
+<p><p>test<p></p>
 
-**The result**
+<p> <code>
+</code></p>
 
-```html
-<p>test<p>
+<p><strong>The result</strong></p>
 
-```
+<pre><code class="html">&lt;p&gt;test&lt;p&gt;
+</code></pre>
 
-There is more info on [Octopress documentation](http://octopress.org/docs/blogging/code/).
-
-</p></p></p></p>
+<p>There is more info on <a href="http://octopress.org/docs/blogging/code/">Octopress documentation</a>.</p>
 ]]></content>
   </entry>
   
@@ -51,57 +48,55 @@ There is more info on [Octopress documentation](http://octopress.org/docs/bloggi
 
 <p>While using Octopress several times, I realized I always had to fire up terminal and type the certain commands, e,g <code>rake deploy</code> and <code>rake generate</code>. Thus, I started to think how I could automate this receptive work. I tried several solutions, e.g keyboard mastero macro and BBEdit applescript. Finally, I found the simplest workflow for myself, <a href="http://www.alfredapp.com/">Alred</a> and <a href="http://www.alfredforum.com/topic/2289-octopress-publisher/">Octopress publisher</a> workflow.</p>
 
-<p>It is easier to generate and publish post to Octopress through Octoppress publisher. All I need to do is type keyword <code>blog</code> and <code>blog generate</code> in my Alfred. It is done. </p>
+<p>It is easier to generate and publish post to Octopress through Octoppress publisher. All I need to do is type keyword <code>blog</code> and <code>blog generate</code> in my Alfred. It is done.</p>
 
-<p>When I installed Octopress publisher in the beginning. The function of <code>blog generate</code> didn’t work. I looked into the script and added one line script. It works as I wish now. </p>
+<p>When I installed Octopress publisher in the beginning. The function of <code>blog generate</code> didn&rsquo;t work. I looked into the script and added one line script. It works as I wish now.</p>
 
 <p><strong>Original script</strong></p>
 
-<p>```bash</p>
+<pre><code class="bash">
+#!/bin/bash
 
-<h1 id="binbash">!/bin/bash</h1>
+#Path to your octopress installation
+OCTOPATH='/Users/stephentseng/Dropbox/octopress'
 
-<h1 id="path-to-your-octopress-installation">Path to your octopress installation</h1>
-<p>OCTOPATH=’/Users/stephentseng/Dropbox/octopress’</p>
-
-<p>if [[ -s “$HOME/.rvm/scripts/rvm” ]] ; then
-      source “$HOME/.rvm/scripts/rvm”
-fi</p>
-
-<p>cd $OCTOPATH » /dev/null
-rvm use 1.9.3@octopress » /dev/null
-rake generate » /dev/null</p>
-
-<p>if [[ $? -eq 0 ]] ; then
-    echo “Blog generated successfully!”
-else
-    echo “Errors while generating static content. Check the console.”
+if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then
+      source "$HOME/.rvm/scripts/rvm"
 fi
-```</p>
+
+cd $OCTOPATH &gt;&gt; /dev/null
+rvm use 1.9.3@octopress &gt;&gt; /dev/null
+rake generate &gt;&gt; /dev/null
+
+if [[ $? -eq 0 ]] ; then
+    echo "Blog generated successfully!"
+else
+    echo "Errors while generating static content. Check the console."
+fi
+</code></pre>
 
 <p><strong>Modified script</strong></p>
 
-<p>```bash
-#!/bin/bash</p>
+<pre><code class="bash">#!/bin/bash
 
-<h1 id="path-to-your-octopress-installation-1">Path to your octopress installation</h1>
-<p>OCTOPATH=’/Users/stephentseng/Dropbox/octopress’</p>
+#Path to your octopress installation
+OCTOPATH='/Users/stephentseng/Dropbox/octopress'
 
-<p>if [[ -s “$HOME/.rvm/scripts/rvm” ]] ; then
-      source “$HOME/.rvm/scripts/rvm”
-fi</p>
-
-<p>cd $OCTOPATH » /dev/null
-rvm use 1.9.3@octopress » /dev/null
-rake generate » /dev/null
-rake deploy » /dev/null</p>
-
-<p>if [[ $? -eq 0 ]] ; then
-    echo “Blog generated successfully!”
-else
-    echo “Errors while generating static content. Check the console.”
+if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then
+      source "$HOME/.rvm/scripts/rvm"
 fi
-```</p>
+
+cd $OCTOPATH &gt;&gt; /dev/null
+rvm use 1.9.3@octopress &gt;&gt; /dev/null
+rake generate &gt;&gt; /dev/null
+rake deploy &gt;&gt; /dev/null
+
+if [[ $? -eq 0 ]] ; then
+    echo "Blog generated successfully!"
+else
+    echo "Errors while generating static content. Check the console."
+fi
+</code></pre>
 ]]></content>
   </entry>
   
@@ -110,7 +105,7 @@ fi
     <link href="http://stephentseng.com/blog/2013/05/14/octoeditor/"/>
     <updated>2013-05-14T18:56:00-04:00</updated>
     <id>http://stephentseng.com/blog/2013/05/14/octoeditor</id>
-    <content type="html"><![CDATA[<p>I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, write, and upload a blog all in Vim. In this way, I don’t need to switch between termainal and Vim. After searching for a proper plug-in, I foud a plug-in called <a href="https://github.com/glidenote/octoeditor.vim?source=cc">Octoeditor</a>. With this plug-in, you can do it all in Vim with sevaral shortcuts. Here is my shortcuts:</p>
+    <content type="html"><![CDATA[<p>I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, write, and upload a blog all in Vim. In this way, I don&rsquo;t need to switch between termainal and Vim. After searching for a proper plug-in, I foud a plug-in called <a href="https://github.com/glidenote/octoeditor.vim?source=cc">Octoeditor</a>. With this plug-in, you can do it all in Vim with sevaral shortcuts. Here is my shortcuts:</p>
 
 <p>Crate a blog <code>map &lt;Leader&gt;on  :OctopressNew&lt;CR&gt;</code>
 List all blogd <code>map &lt;Leader&gt;ol  :OctopressList&lt;CR&gt;</code>

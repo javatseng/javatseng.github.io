@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Vimperator | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/vimperator/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T16:06:06-04:00</updated>
+  <updated>2014-09-07T16:25:36-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -20,11 +20,11 @@
     <id>http://stephentseng.com/blog/2013/06/10/change-h-and-l-keys-in-vimperator</id>
     <content type="html"><![CDATA[<p>I have used Firefox plug-in Vimperator for a while. The default shortcut of back and forward is <code>shift + H</code> and <code>shift + L</code> in Vimperator. I found it is not efficiency enough to type two keys. I added two lines to <code>vimrc</code> file:</p>
 
-<p><code>
-noremap h &lt;S-h&gt;
+<pre><code>noremap h &lt;S-h&gt;
 noremap l &lt;S-l&gt;
-</code> 
-With this setting, I can just type H or L key once to back or forward.</p>
+</code></pre>
+
+<p>With this setting, I can just type H or L key once to back or forward.</p>
 ]]></content>
   </entry>
   

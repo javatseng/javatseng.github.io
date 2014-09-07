@@ -96,23 +96,24 @@
 <div class="entry-content"><p>I have been using <a href="http://freron.com/">MailMate</a> frequently. Personally, I would think it is a very geeky and one of the best wmail softwares in Mac. One of the strengths is, compared to other email clients, it is highly configurable. I have added one keybord binding to MailMate. The below is how I i did it:</p>
 
 <ol>
-  <li>Create a folder in <code>~/Library/Application Support/MailMate/Resources/KeyBindings/</code></li>
-  <li>Create a file called <code>Special.plist</code></li>
-  <li>Type file name <code>Special</code> in Custom Key Binding in Preferences.</li>
-  <li>Put your keyboard binding in <code>Special.plist</code>. The below is my binding: </li>
+<li>Create a folder in <code>~/Library/Application Support/MailMate/Resources/KeyBindings/</code></li>
+<li>Create a file called <code>Special.plist</code></li>
+<li>Type file name <code>Special</code> in Custom Key Binding in Preferences.</li>
+<li>Put your keyboard binding in <code>Special.plist</code>. The below is my binding:</li>
 </ol>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-</pre></td><td class="code"><pre><code class=""><span class="line">"g" = {
-</span><span class="line">	"u" = ( "goToMailbox:", "7F8B3A68-95A7-4F60-B048-FDBE661C5D8C" );
-</span><span class="line">};</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>"g" = {
+</span><span class='line'>  "u" = ( "goToMailbox:", "7F8B3A68-95A7-4F60-B048-FDBE661C5D8C" );
+</span><span class='line'>};</span></code></pre></td></tr></table></div></figure>
+
 
 <p>In my case, I use <code>g+u</code> to navigate to <code>Uread</code> folder. To make it work, you need to find mailbox UIUD. You can find it in <code>~/Library/Application Support/MailMate/Mailboxes.plist</code>.</p>
 
 <p>That is how I did it. I feel like MailMate is like Vim in email client softwares.</p>
-
 </div>
 
 
