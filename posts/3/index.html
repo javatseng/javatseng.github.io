@@ -96,7 +96,7 @@
   </header>
 
 
-  <div class="entry-content"><p>I found this browser extension(Safari, Chrome) on line. It makes  my twitter interface minimal. It brings me less distraction and more concentration. I really enjoy <a href="http://jxnblk.com/twipster/">Twipster</a>.</p>
+  <div class="entry-content"><p>I found this browser extension(Safari, Chrome) on line. It makes  my twitter interface minimal. It brings me less distraction and more concentration. I really enjoy <a href="http://jxnblk.com/twipster/">Twipster</a>. </p>
 </div>
   
   
@@ -137,9 +137,8 @@
 <p><img src="http://www.kuqin.com/upimg/allimg/110731/2102511633-0.jpg" alt="drupal vs WordPress vs Joomla" /></p>
 
 <ul>
-<li>原发布于dminorstudio的博客</li>
+  <li>原发布于dminorstudio的博客</li>
 </ul>
-
 </div>
   
   
@@ -213,21 +212,20 @@
 
   <div class="entry-content"><p>在MAC的Terminal里面没有预装WGET Tool，所以无法执行WGET命令，网上百度了一下找到安装的命令行：</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
-</span><span class='line'>tar -xzvf wget-1.13.tar.gz
-</span><span class='line'>cd wget-1.13
-</span><span class='line'>./configure --with-ssl=openssl
-</span><span class='line'>make
-</span><span class='line'>sudo make install
-</span><span class='line'>which wget  #Should output: /usr/local/bin/wget </span></code></pre></td></tr></table></div></figure>
-
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
+</span><span class="line">tar -xzvf wget-1.13.tar.gz
+</span><span class="line">cd wget-1.13
+</span><span class="line">./configure --with-ssl=openssl
+</span><span class="line">make
+</span><span class="line">sudo make install
+</span><span class="line">which wget  #Should output: /usr/local/bin/wget </span></code></pre></td></tr></table></div></figure></notextile></div>
 </div>
   
   
@@ -304,13 +302,21 @@
   <div class="entry-content"><p>最近在看PeepCode里的<a href="https://peepcode.com/products/meet-the-command-line">meet the command</a>的教程，把Unix的基础系统的学了一下，其中发现视频terminal里面prompt的前缀竟然是host name和full path，再看看自己prompt的前缀又长又没意义，于是网上摸索了一下，该改法如下：</p>
 
 <ul>
-<li><p>出现full path</p></li>
-<li><p>在finder找到<code>~/.bash_profile</code>这个file</p></li>
-<li><p>在档案里面加上<code>export PS1='\u@\H:\w$'</code>这行命令就可以了</p></li>
-<li><p>更改host name</p></li>
-<li><p>直接到 <code>System Preference&gt;Sharing&gt;edit</code> 修改<code>local host name</code>就可以了</p></li>
+  <li>出现full path</li>
 </ul>
 
+<ol>
+  <li>在finder找到<code>~/.bash_profile</code>这个file</li>
+  <li>在档案里面加上<code>export PS1='\u@\H:\w$'</code>这行命令就可以了</li>
+</ol>
+
+<ul>
+  <li>更改host name</li>
+</ul>
+
+<ol>
+  <li>直接到 <code>System Preference&gt;Sharing&gt;edit</code> 修改<code>local host name</code>就可以了</li>
+</ol>
 </div>
   
   

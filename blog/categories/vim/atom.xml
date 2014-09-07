@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Vim | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/vim/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T16:03:24-04:00</updated>
+  <updated>2014-09-07T16:06:06-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -20,7 +20,8 @@
     <id>http://stephentseng.com/blog/2013/04/28/vim-swap-file</id>
     <content type="html"><![CDATA[<p>I have started to learn how to use Vim recently. The first thing I need to learn is to use Vim to write my blog in Octopress. The one advatage of using Vim is that you fire up Vim inside Termial. Itmight make workflow easier. However. when I finished my article and <code>deploy rake</code>. Here error came.</p>
 
-<pre><code>Stephen@stephenmbp.local~/octopress]$ rake deploy
+<p><code>
+Stephen@stephenmbp.local~/octopress]$ rake deploy
 cp -r source/_posts/.2013-04-28-test.markdown.swp public/_posts/.2013-04-28-test.markdown.swp
 rake aborted!
 No such file or directory - public/_posts/.2013-04-28-test.markdown.swp
@@ -31,9 +32,8 @@ No such file or directory - public/_posts/.2013-04-28-test.markdown.swp
 /Users/Stephen/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `&lt;main&gt;'
 Tasks: TOP =&gt; copydot
 (See full trace by running task with --trace)
-</code></pre>
-
-<p>The solution is to put `set noswapfile' in .vimrc. Disable swapfile.</p>
+</code> 
+The solution is to put `set noswapfile’ in .vimrc. Disable swapfile.</p>
 ]]></content>
   </entry>
   
@@ -44,7 +44,7 @@ Tasks: TOP =&gt; copydot
     <id>http://stephentseng.com/blog/2013/04/27/vimperator</id>
     <content type="html"><![CDATA[<p>I had been using Chrome for a while. However, I found Chrome occupies too many memory. So, I decided to switch back to FireFox which I had used it for 6 years.</p>
 
-<p>When I learned how to use FireFox again, I discovered a extension called <a href="http://www.vimperator.org/about">&ldquo;Vimperator&rdquo;</a>. It can make FireFox Vim-like browser. At this moment, I am not familiar with Vim. But I decided to give Vimperator a shot. It did lead me to another world. Now I can not live without Vimperator when I browse the internet. At the beginning, it was difficult to use Vimperator. But the more I practice, the more efficiency I am. Now I am interested to learn more about Vim and its design philosophy. I am glad that I tried Vimperator. I find Vim&rsquo;s concept is everywhere. It is a skill set for long-term use.</p>
+<p>When I learned how to use FireFox again, I discovered a extension called <a href="http://www.vimperator.org/about">“Vimperator”</a>. It can make FireFox Vim-like browser. At this moment, I am not familiar with Vim. But I decided to give Vimperator a shot. It did lead me to another world. Now I can not live without Vimperator when I browse the internet. At the beginning, it was difficult to use Vimperator. But the more I practice, the more efficiency I am. Now I am interested to learn more about Vim and its design philosophy. I am glad that I tried Vimperator. I find Vim’s concept is everywhere. It is a skill set for long-term use.  </p>
 ]]></content>
   </entry>
   

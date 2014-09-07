@@ -96,28 +96,27 @@
   </header>
 
 
-  <div class="entry-content"><p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language type[^<a href="http://pygments.org/docs/lexers">http://pygments.org/docs/lexers</a>] after <code>backtick</code>.</p>
+  <div class="entry-content"><p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language type[^http://pygments.org/docs/lexers] after <code>backtick</code>. </p>
 
 <p><strong>The source</strong></p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'> ```html
-</span><span class='line'>&lt;p&gt;test&lt;p&gt;
-</span><span class='line'>
-</span><span class='line'> ```</span></code></pre></td></tr></table></div></figure>
-
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+</pre></td><td class="code"><pre><code class=""><span class="line"> ```html
+</span><span class="line">&lt;p&gt;test&lt;p&gt;
+</span><span class="line">
+</span><span class="line"> ```</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 <p><strong>The result</strong></p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;p&gt;</span>test<span class="nt">&lt;p&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="html"><span class="line"><span class="nt">&lt;p&gt;</span>test<span class="nt">&lt;p&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 <p>There is more info on <a href="http://octopress.org/docs/blogging/code/">Octopress documentation</a>.</p>
+
 </div>
   
   
@@ -157,93 +156,91 @@
 
 <p>While using Octopress several times, I realized I always had to fire up terminal and type the certain commands, e,g <code>rake deploy</code> and <code>rake generate</code>. Thus, I started to think how I could automate this receptive work. I tried several solutions, e.g keyboard mastero macro and BBEdit applescript. Finally, I found the simplest workflow for myself, <a href="http://www.alfredapp.com/">Alred</a> and <a href="http://www.alfredforum.com/topic/2289-octopress-publisher/">Octopress publisher</a> workflow.</p>
 
-<p>It is easier to generate and publish post to Octopress through Octoppress publisher. All I need to do is type keyword <code>blog</code> and <code>blog generate</code> in my Alfred. It is done.</p>
+<p>It is easier to generate and publish post to Octopress through Octoppress publisher. All I need to do is type keyword <code>blog</code> and <code>blog generate</code> in my Alfred. It is done. </p>
 
-<p>When I installed Octopress publisher in the beginning. The function of <code>blog generate</code> didn&rsquo;t work. I looked into the script and added one line script. It works as I wish now.</p>
+<p>When I installed Octopress publisher in the beginning. The function of <code>blog generate</code> didn’t work. I looked into the script and added one line script. It works as I wish now. </p>
 
 <p><strong>Original script</strong></p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'>
-</span><span class='line'><span class="c">#Path to your octopress installation</span>
-</span><span class='line'><span class="nv">OCTOPATH</span><span class="o">=</span><span class="s1">&#39;/Users/stephentseng/Dropbox/octopress&#39;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-</span><span class='line'><span class="k">      </span><span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
-</span><span class='line'><span class="k">fi</span>
-</span><span class='line'>
-</span><span class='line'><span class="nb">cd</span> <span class="nv">$OCTOPATH</span> &gt;&gt; /dev/null
-</span><span class='line'>rvm use 1.9.3@octopress &gt;&gt; /dev/null
-</span><span class='line'>rake generate &gt;&gt; /dev/null
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$?</span> -eq 0 <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Blog generated successfully!&quot;</span>
-</span><span class='line'><span class="k">else</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Errors while generating static content. Check the console.&quot;</span>
-</span><span class='line'><span class="k">fi</span>
-</span></code></pre></td></tr></table></div></figure>
-
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c">#!/bin/bash</span>
+</span><span class="line">
+</span><span class="line"><span class="c">#Path to your octopress installation</span>
+</span><span class="line"><span class="nv">OCTOPATH</span><span class="o">=</span><span class="s1">&#39;/Users/stephentseng/Dropbox/octopress&#39;</span>
+</span><span class="line">
+</span><span class="line"><span class="k">if</span> <span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span><span class="line"><span class="k">      </span><span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
+</span><span class="line"><span class="k">fi</span>
+</span><span class="line">
+</span><span class="line"><span class="nb">cd</span> <span class="nv">$OCTOPATH</span> &gt;&gt; /dev/null
+</span><span class="line">rvm use 1.9.3@octopress &gt;&gt; /dev/null
+</span><span class="line">rake generate &gt;&gt; /dev/null
+</span><span class="line">
+</span><span class="line"><span class="k">if</span> <span class="o">[[</span> <span class="nv">$?</span> -eq 0 <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Blog generated successfully!&quot;</span>
+</span><span class="line"><span class="k">else</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Errors while generating static content. Check the console.&quot;</span>
+</span><span class="line"><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 <p><strong>Modified script</strong></p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'>
-</span><span class='line'><span class="c">#Path to your octopress installation</span>
-</span><span class='line'><span class="nv">OCTOPATH</span><span class="o">=</span><span class="s1">&#39;/Users/stephentseng/Dropbox/octopress&#39;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-</span><span class='line'><span class="k">      </span><span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
-</span><span class='line'><span class="k">fi</span>
-</span><span class='line'>
-</span><span class='line'><span class="nb">cd</span> <span class="nv">$OCTOPATH</span> &gt;&gt; /dev/null
-</span><span class='line'>rvm use 1.9.3@octopress &gt;&gt; /dev/null
-</span><span class='line'>rake generate &gt;&gt; /dev/null
-</span><span class='line'>rake deploy &gt;&gt; /dev/null
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$?</span> -eq 0 <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Blog generated successfully!&quot;</span>
-</span><span class='line'><span class="k">else</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Errors while generating static content. Check the console.&quot;</span>
-</span><span class='line'><span class="k">fi</span>
-</span></code></pre></td></tr></table></div></figure>
-
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="c">#!/bin/bash</span>
+</span><span class="line">
+</span><span class="line"><span class="c">#Path to your octopress installation</span>
+</span><span class="line"><span class="nv">OCTOPATH</span><span class="o">=</span><span class="s1">&#39;/Users/stephentseng/Dropbox/octopress&#39;</span>
+</span><span class="line">
+</span><span class="line"><span class="k">if</span> <span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span><span class="line"><span class="k">      </span><span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
+</span><span class="line"><span class="k">fi</span>
+</span><span class="line">
+</span><span class="line"><span class="nb">cd</span> <span class="nv">$OCTOPATH</span> &gt;&gt; /dev/null
+</span><span class="line">rvm use 1.9.3@octopress &gt;&gt; /dev/null
+</span><span class="line">rake generate &gt;&gt; /dev/null
+</span><span class="line">rake deploy &gt;&gt; /dev/null
+</span><span class="line">
+</span><span class="line"><span class="k">if</span> <span class="o">[[</span> <span class="nv">$?</span> -eq 0 <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Blog generated successfully!&quot;</span>
+</span><span class="line"><span class="k">else</span>
+</span><span class="line"><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Errors while generating static content. Check the console.&quot;</span>
+</span><span class="line"><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 </div>
   
   
@@ -279,7 +276,7 @@
   </header>
 
 
-  <div class="entry-content"><p>&ldquo;Be like a duck. Calm on the surface, but always paddling like the dickens underneath.&rdquo; - Michael Cain</p>
+  <div class="entry-content"><p>“Be like a duck. Calm on the surface, but always paddling like the dickens underneath.” - Michael Cain</p>
 </div>
   
   
@@ -318,24 +315,23 @@
   <div class="entry-content"><p>I have been using <a href="http://freron.com/">MailMate</a> frequently. Personally, I would think it is a very geeky and one of the best wmail softwares in Mac. One of the strengths is, compared to other email clients, it is highly configurable. I have added one keybord binding to MailMate. The below is how I i did it:</p>
 
 <ol>
-<li>Create a folder in <code>~/Library/Application Support/MailMate/Resources/KeyBindings/</code></li>
-<li>Create a file called <code>Special.plist</code></li>
-<li>Type file name <code>Special</code> in Custom Key Binding in Preferences.</li>
-<li>Put your keyboard binding in <code>Special.plist</code>. The below is my binding:</li>
+  <li>Create a folder in <code>~/Library/Application Support/MailMate/Resources/KeyBindings/</code></li>
+  <li>Create a file called <code>Special.plist</code></li>
+  <li>Type file name <code>Special</code> in Custom Key Binding in Preferences.</li>
+  <li>Put your keyboard binding in <code>Special.plist</code>. The below is my binding: </li>
 </ol>
 
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>"g" = {
-</span><span class='line'>  "u" = ( "goToMailbox:", "7F8B3A68-95A7-4F60-B048-FDBE661C5D8C" );
-</span><span class='line'>};</span></code></pre></td></tr></table></div></figure>
-
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">"g" = {
+</span><span class="line">	"u" = ( "goToMailbox:", "7F8B3A68-95A7-4F60-B048-FDBE661C5D8C" );
+</span><span class="line">};</span></code></pre></td></tr></table></div></figure></notextile></div>
 
 <p>In my case, I use <code>g+u</code> to navigate to <code>Uread</code> folder. To make it work, you need to find mailbox UIUD. You can find it in <code>~/Library/Application Support/MailMate/Mailboxes.plist</code>.</p>
 
 <p>That is how I did it. I feel like MailMate is like Vim in email client softwares.</p>
+
 </div>
   
   
@@ -443,7 +439,7 @@
   </header>
 
 
-  <div class="entry-content"><p>I have been using <a href="https://pinboard.in">Pinboard</a> for a while. It is  a very powerful bookmarking service with minimum interface. Now I can use <a href="https://github.com/badboy/pinboard-cli">CLI</a> with pinboard. All I have to do is to install a gem and put a api token.</p>
+  <div class="entry-content"><p>I have been using <a href="https://pinboard.in">Pinboard</a> for a while. It is  a very powerful bookmarking service with minimum interface. Now I can use <a href="https://github.com/badboy/pinboard-cli">CLI</a> with pinboard. All I have to do is to install a gem and put a api token. </p>
 
 <p><em>Install</em></p>
 
@@ -487,7 +483,7 @@
   </header>
 
 
-  <div class="entry-content"><p>Wget is a very powerful CLI tool. However, Mac doesn&rsquo;t have it by default. There are several ways to install. The easiest way is to use homebrew to install. Of course, homebrew has to be installed beforehand. All you need to do is type one command line:</p>
+  <div class="entry-content"><p>Wget is a very powerful CLI tool. However, Mac doesn’t have it by default. There are several ways to install. The easiest way is to use homebrew to install. Of course, homebrew has to be installed beforehand. All you need to do is type one command line:</p>
 
 <p><code>$ brew install wget</code></p>
 </div>
@@ -567,14 +563,11 @@
 
   <div class="entry-content"><p>I have used Firefox plug-in Vimperator for a while. The default shortcut of back and forward is <code>shift + H</code> and <code>shift + L</code> in Vimperator. I found it is not efficiency enough to type two keys. I added two lines to <code>vimrc</code> file:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>noremap h &lt;S-h&gt;
-</span><span class='line'>noremap l &lt;S-l&gt;</span></code></pre></td></tr></table></div></figure>
-
-
-<p>
-With this setting, I can just type H or L key once to back or forward.</p>
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">noremap h &lt;S-h&gt;
+</span><span class="line">noremap l &lt;S-l&gt;</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>With this setting, I can just type H or L key once to back or forward.</p>
 </div>
   
   

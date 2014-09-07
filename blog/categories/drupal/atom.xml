@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Drupal | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/drupal/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T16:03:24-04:00</updated>
+  <updated>2014-09-07T16:06:06-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -18,9 +18,9 @@
     <link href="http://stephentseng.com/blog/2013/03/14/workbench/"/>
     <updated>2013-03-14T16:36:00-04:00</updated>
     <id>http://stephentseng.com/blog/2013/03/14/workbench</id>
-    <content type="html"><![CDATA[<p>Drupal is a very powerful CMS and known for its flexibility. Due to its flexibility, it has been very developer-friendly. However, the interface of Drupal CMS could be very confusing to site administrators who don&rsquo;t have technical background.</p>
+    <content type="html"><![CDATA[<p>Drupal is a very powerful CMS and known for its flexibility. Due to its flexibility, it has been very developer-friendly. However, the interface of Drupal CMS could be very confusing to site administrators who don’t have technical background. </p>
 
-<p>It always takes us time to teach our clients how to publish and edit pages. Due to complexity of Drupal CMS, it is easy for our clients to be lost in the backend.</p>
+<p>It always takes us time to teach our clients how to publish and edit pages. Due to complexity of Drupal CMS, it is easy for our clients to be lost in the backend. </p>
 
 <p><a href="http://drupal.org/project/workbench">Workbench</a> is a great module for administrators who often publish and edit pages. With Workbench, user can see recent articles he/she has published and edited under one page. It becomes very easy to manage articles.</p>
 ]]></content>
@@ -36,9 +36,8 @@
 <p><img src="http://www.kuqin.com/upimg/allimg/110731/2102511633-0.jpg" alt="drupal vs WordPress vs Joomla" /></p>
 
 <ul>
-<li>原发布于dminorstudio的博客</li>
+  <li>原发布于dminorstudio的博客</li>
 </ul>
-
 ]]></content>
   </entry>
   
