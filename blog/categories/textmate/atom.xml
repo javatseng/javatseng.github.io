@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Textmate | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/textmate/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T15:59:17-04:00</updated>
+  <updated>2014-09-07T16:03:24-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -29,11 +29,10 @@
     <id>http://stephentseng.com/blog/2012/10/25/how-to-install-scss-support-package-in-textmate</id>
     <content type="html"><![CDATA[<p>最近textmate用的比较多，在做ruby on rails tutorial需要创建scss档案，创建了后发现textmate不支持，问了一下google大神，找到安装代码：</p>
 
-<p><code>
-mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+<pre><code>mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 cd ~/Library/Application\ Support/TextMate/Bundles
 git clone https://github.com/kuroir/SCSS.tmbundle.git "SCSS.tmbundle"
-</code></p>
+</code></pre>
 ]]></content>
   </entry>
   

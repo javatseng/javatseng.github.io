@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Mac | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T15:59:17-04:00</updated>
+  <updated>2014-09-07T16:03:24-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -21,22 +21,21 @@
     <content type="html"><![CDATA[<p>I have been using <a href="http://freron.com/">MailMate</a> frequently. Personally, I would think it is a very geeky and one of the best wmail softwares in Mac. One of the strengths is, compared to other email clients, it is highly configurable. I have added one keybord binding to MailMate. The below is how I i did it:</p>
 
 <ol>
-  <li>Create a folder in <code>~/Library/Application Support/MailMate/Resources/KeyBindings/</code></li>
-  <li>Create a file called <code>Special.plist</code></li>
-  <li>Type file name <code>Special</code> in Custom Key Binding in Preferences.</li>
-  <li>Put your keyboard binding in <code>Special.plist</code>. The below is my binding: </li>
+<li>Create a folder in <code>~/Library/Application Support/MailMate/Resources/KeyBindings/</code></li>
+<li>Create a file called <code>Special.plist</code></li>
+<li>Type file name <code>Special</code> in Custom Key Binding in Preferences.</li>
+<li>Put your keyboard binding in <code>Special.plist</code>. The below is my binding:</li>
 </ol>
 
-<p><code>
-"g" = {
-	"u" = ( "goToMailbox:", "7F8B3A68-95A7-4F60-B048-FDBE661C5D8C" );
+
+<pre><code>"g" = {
+    "u" = ( "goToMailbox:", "7F8B3A68-95A7-4F60-B048-FDBE661C5D8C" );
 };
-</code></p>
+</code></pre>
 
 <p>In my case, I use <code>g+u</code> to navigate to <code>Uread</code> folder. To make it work, you need to find mailbox UIUD. You can find it in <code>~/Library/Application Support/MailMate/Mailboxes.plist</code>.</p>
 
 <p>That is how I did it. I feel like MailMate is like Vim in email client softwares.</p>
-
 ]]></content>
   </entry>
   
@@ -57,21 +56,13 @@
     <content type="html"><![CDATA[<p>最近在看PeepCode里的<a href="https://peepcode.com/products/meet-the-command-line">meet the command</a>的教程，把Unix的基础系统的学了一下，其中发现视频terminal里面prompt的前缀竟然是host name和full path，再看看自己prompt的前缀又长又没意义，于是网上摸索了一下，该改法如下：</p>
 
 <ul>
-  <li>出现full path</li>
+<li><p>出现full path</p></li>
+<li><p>在finder找到<code>~/.bash_profile</code>这个file</p></li>
+<li><p>在档案里面加上<code>export PS1='\u@\H:\w$'</code>这行命令就可以了</p></li>
+<li><p>更改host name</p></li>
+<li><p>直接到 <code>System Preference&gt;Sharing&gt;edit</code> 修改<code>local host name</code>就可以了</p></li>
 </ul>
 
-<ol>
-  <li>在finder找到<code>~/.bash_profile</code>这个file</li>
-  <li>在档案里面加上<code>export PS1='\u@\H:\w$'</code>这行命令就可以了</li>
-</ol>
-
-<ul>
-  <li>更改host name</li>
-</ul>
-
-<ol>
-  <li>直接到 <code>System Preference&gt;Sharing&gt;edit</code> 修改<code>local host name</code>就可以了</li>
-</ol>
 ]]></content>
   </entry>
   
