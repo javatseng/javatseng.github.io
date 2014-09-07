@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-06T08:41:25-04:00</updated>
+  <updated>2014-09-07T15:22:06-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Syntax Highlighting]]></title>
+    <link href="http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting/"/>
+    <updated>2014-09-07T15:20:59-04:00</updated>
+    <id>http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting</id>
+    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language type.e[^<a href="http://pygments.org/docs/lexers">http://pygments.org/docs/lexers</a>] after <code>backtick</code>.</p>
+
+<p><strong>The source</strong></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'> ```html
+</span><span class='line'>&lt;p&gt;test&lt;p&gt;
+</span><span class='line'>
+</span><span class='line'> ```</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>The result</strong></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;p&gt;</span>test<span class="nt">&lt;p&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>There is more info on <a href="http://octopress.org/docs/blogging/code/">Octopress documentation</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Publisher]]></title>
@@ -369,15 +399,6 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
 <p>It always takes us time to teach our clients how to publish and edit pages. Due to complexity of Drupal CMS, it is easy for our clients to be lost in the backend.</p>
 
 <p><a href="http://drupal.org/project/workbench">Workbench</a> is a great module for administrators who often publish and edit pages. With Workbench, user can see recent articles he/she has published and edited under one page. It becomes very easy to manage articles.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Minimal Twitter]]></title>
-    <link href="http://stephentseng.com/blog/2013/03/04/minimal-twitter/"/>
-    <updated>2013-03-04T17:29:00-05:00</updated>
-    <id>http://stephentseng.com/blog/2013/03/04/minimal-twitter</id>
-    <content type="html"><![CDATA[<p>I found this browser extension(Safari, Chrome) on line. It makes  my twitter interface minimal. It brings me less distraction and more concentration. I really enjoy <a href="http://jxnblk.com/twipster/">Twipster</a>.</p>
 ]]></content>
   </entry>
   
