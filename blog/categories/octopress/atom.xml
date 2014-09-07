@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T16:28:43-04:00</updated>
+  <updated>2014-09-07T16:30:15-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -18,7 +18,7 @@
     <link href="http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting/"/>
     <updated>2014-09-07T15:20:59-04:00</updated>
     <id>http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting</id>
-    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language type after <code>backtick</code>.</p>
+    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language type after <code>backtick</code>. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
 
 <p><strong>The source</strong></p>
 
@@ -36,6 +36,14 @@
 </code></pre>
 
 <p>There is more info on <a href="http://octopress.org/docs/blogging/code/">Octopress documentation</a>.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>http://pygments.org/docs/lexers] <a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 ]]></content>
   </entry>
   
