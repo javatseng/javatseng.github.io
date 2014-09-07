@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T16:32:19-04:00</updated>
+  <updated>2014-09-07T17:04:31-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -18,7 +18,8 @@
     <link href="http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting/"/>
     <updated>2014-09-07T15:20:59-04:00</updated>
     <id>http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting</id>
-    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language type after <code>backtick</code>. [^1]</p>
+    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language [^type]
+ after <code>backtick</code>.</p>
 
 <p><strong>The source</strong></p>
 
@@ -37,7 +38,7 @@
 
 <p>There is more info on <a href="http://octopress.org/docs/blogging/code/">Octopress documentation</a>.</p>
 
-<p>[^1]:<a href="http://pygments.org/docs/lexers">http://pygments.org/docs/lexers</a></p>
+<p>[^type]:<a href="http://pygments.org/docs/lexers">http://pygments.org/docs/lexers</a></p>
 ]]></content>
   </entry>
   
