@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-07T17:04:31-04:00</updated>
+  <updated>2014-09-10T07:56:44-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -14,12 +14,22 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Everyone Has a Plan]]></title>
+    <link href="http://stephentseng.com/blog/2014/09/10/everyone-has-a-plan/"/>
+    <updated>2014-09-10T07:53:59-04:00</updated>
+    <id>http://stephentseng.com/blog/2014/09/10/everyone-has-a-plan</id>
+    <content type="html"><![CDATA[<blockquote><p>“Everyone has a plan, until he gets punched in the mouth” -Mike Tyson</p></blockquote>
+
+<p>When I saw this quote first time, I could not agree more. After several yeas, it is truth to me. Even so, we still need to have a plan. But how to adjust and execute your plan when you get bunched is the <strong>wisdom</strong> we need to develop.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Octopress Syntax Highlighting]]></title>
     <link href="http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting/"/>
     <updated>2014-09-07T15:20:59-04:00</updated>
     <id>http://stephentseng.com/blog/2014/09/07/octopress-syntax-highlighting</id>
-    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>
- after <code>backtick</code>.</p>
+    <content type="html"><![CDATA[<p>I just found Octopress can support highlighting syntax according to your programming language. It is easy to do it. You just need to add language <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> after <code>backtick</code>.</p>
 
 <p><strong>The source</strong></p>
 
@@ -395,19 +405,6 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
 <p><code>vimtutor</code></p>
 
 <p>Then, it is done.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Workbench]]></title>
-    <link href="http://stephentseng.com/blog/2013/03/14/workbench/"/>
-    <updated>2013-03-14T16:36:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/03/14/workbench</id>
-    <content type="html"><![CDATA[<p>Drupal is a very powerful CMS and known for its flexibility. Due to its flexibility, it has been very developer-friendly. However, the interface of Drupal CMS could be very confusing to site administrators who don&rsquo;t have technical background.</p>
-
-<p>It always takes us time to teach our clients how to publish and edit pages. Due to complexity of Drupal CMS, it is easy for our clients to be lost in the backend.</p>
-
-<p><a href="http://drupal.org/project/workbench">Workbench</a> is a great module for administrators who often publish and edit pages. With Workbench, user can see recent articles he/she has published and edited under one page. It becomes very easy to manage articles.</p>
 ]]></content>
   </entry>
   
