@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2014-09-10T07:56:44-04:00</updated>
+  <updated>2015-02-26T18:00:09-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Turn Off Facebook Game Notification]]></title>
+    <link href="http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification/"/>
+    <updated>2015-02-26T17:49:07-05:00</updated>
+    <id>http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification</id>
+    <content type="html"><![CDATA[<p>After moving from China to US, I can access Facebook without any firewall. One thing bothering me is I always receive game invitation from my friends. The problem is I never play any games on Facebook. Finally, I find a way to turn off the notification. Here is the <a href="https://www.facebook.com/HowToBlockGameRequests">link</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Everyone Has a Plan]]></title>
@@ -392,19 +401,6 @@ The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
     <content type="html"><![CDATA[<p>I had been using Chrome for a while. However, I found Chrome occupies too many memory. So, I decided to switch back to FireFox which I had used it for 6 years.</p>
 
 <p>When I learned how to use FireFox again, I discovered a extension called <a href="http://www.vimperator.org/about">&ldquo;Vimperator&rdquo;</a>. It can make FireFox Vim-like browser. At this moment, I am not familiar with Vim. But I decided to give Vimperator a shot. It did lead me to another world. Now I can not live without Vimperator when I browse the internet. At the beginning, it was difficult to use Vimperator. But the more I practice, the more efficiency I am. Now I am interested to learn more about Vim and its design philosophy. I am glad that I tried Vimperator. I find Vim&rsquo;s concept is everywhere. It is a skill set for long-term use.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Vim Tutorial]]></title>
-    <link href="http://stephentseng.com/blog/2013/04/18/vim-tutorial/"/>
-    <updated>2013-04-18T11:25:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/04/18/vim-tutorial</id>
-    <content type="html"><![CDATA[<p>I started to learn how to use <a href="http://www.vim.org/">Vim</a>. The fist challenge is I could not find where the official tutorial is. After searching the answer on line, I find this <a href="http://vim.1045645.n5.nabble.com/ViM-Tutorial-td1218542.html">article</a>. The answer is easy. Just fire up terminal and type</p>
-
-<p><code>vimtutor</code></p>
-
-<p>Then, it is done.</p>
 ]]></content>
   </entry>
   

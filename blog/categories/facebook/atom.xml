@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Facebook | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/facebook/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2015-02-26T18:00:09-05:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Turn Off Facebook Game Notification]]></title>
+    <link href="http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification/"/>
+    <updated>2015-02-26T17:49:07-05:00</updated>
+    <id>http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification</id>
+    <content type="html"><![CDATA[<p>After moving from China to US, I can access Facebook without any firewall. One thing bothering me is I always receive game invitation from my friends. The problem is I never play any games on Facebook. Finally, I find a way to turn off the notification. Here is the <a href="https://www.facebook.com/HowToBlockGameRequests">link</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
