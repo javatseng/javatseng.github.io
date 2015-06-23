@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2015-06-22T23:36:20-04:00</updated>
+  <updated>2015-06-22T23:42:16-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -18,7 +18,7 @@
     <link href="http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal/"/>
     <updated>2015-06-22T23:04:48-04:00</updated>
     <id>http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal</id>
-    <content type="html"><![CDATA[<p>I sarted to play <a href="https://github.com/fcambus/ansiweather">ansiweather</a> in terminal. After installing script, I got error message: <code>./ansi weather: line 167: [: !=: unary operator expected</code>. Googled it and found the solution on <a href="http://stackoverflow.com/questions/13617843/unary-operator-expected">stackoverflow</a> as usual.</p>
+    <content type="html"><![CDATA[<p>I sarted to play <a href="https://github.com/fcambus/ansiweather">ansiweather</a> in terminal. After installing script, I got error message, <code>./ansi weather: line 167: [: !=: unary operator expected</code> . Googled it and found the solution on <a href="http://stackoverflow.com/questions/13617843/unary-operator-expected">stackoverflow</a> as usual.</p>
 
 <p>Original code:</p>
 
