@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Turn Off Facebook Game Notification - Stephen Tseng</title>
+  <title>Get Weather Info in Terminal - Stephen Tseng</title>
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="After moving from China to US, I can access Facebook without any firewall. One thing bothering me is I always receive game invitation from my friends &hellip;">
+  <meta name="description" content="I sarted to play ansiweather in terminal. After installing script, I got error message: ./ansi weather: line 167: [: !=: unary operator expected. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification">
+  <link rel="canonical" href="http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Stephen Tseng" type="application/atom+xml">
@@ -70,7 +70,7 @@
   
   <header>
     
-      <h1 class="entry-title">Turn Off Facebook Game Notification</h1>
+      <h1 class="entry-title">Get Weather Info in Terminal</h1>
     
     
       <p class="meta">
@@ -86,14 +86,44 @@
   
 
 
-<time datetime="2015-02-26T17:49:07-05:00" pubdate data-updated="true">Feb 26<sup>th</sup>, 2015</time>
+<time datetime="2015-06-22T23:04:48-04:00" pubdate data-updated="true">Jun 22<sup>nd</sup>, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>After moving from China to US, I can access Facebook without any firewall. One thing bothering me is I always receive game invitation from my friends. The problem is I never play any games on Facebook. Finally, I find a way to turn off the notification. Here is the <a href="https://www.facebook.com/HowToBlockGameRequests">link</a>.</p>
+<div class="entry-content"><p>I sarted to play <a href="https://github.com/fcambus/ansiweather">ansiweather</a> in terminal. After installing script, I got error message: <code>./ansi weather: line 167: [: !=: unary operator expected</code>. Googled it and found the solution on <a href="http://stackoverflow.com/questions/13617843/unary-operator-expected">stackoverflow</a> as usual.</p>
+
+<p>Original code:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">if</span> <span class="o">[</span> <span class="nv">$status_code</span> !<span class="o">=</span> 200 <span class="o">]</span>
+</span><span class='line'><span class="k">then</span>
+</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;ERROR : Cannot fetch weather data for the given location&quot;</span>
+</span><span class='line'>  <span class="nb">exit</span>
+</span><span class='line'><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Modified code:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$status_code&quot;</span> !<span class="o">=</span> <span class="s2">&quot;200&quot;</span> <span class="o">]</span>
+</span><span class='line'><span class="k">then</span>
+</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;ERROR : Cannot fetch weather data for the given location&quot;</span>
+</span><span class='line'>  <span class="nb">exit</span>
+</span><span class='line'><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure>
+
 </div>
 
 
@@ -116,12 +146,12 @@
   
 
 
-<time datetime="2015-02-26T17:49:07-05:00" pubdate data-updated="true">Feb 26<sup>th</sup>, 2015</time>
+<time datetime="2015-06-22T23:04:48-04:00" pubdate data-updated="true">Jun 22<sup>nd</sup>, 2015</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/facebook/'>facebook</a>
+    <a class='category' href='/blog/categories/commandline/'>commandline</a>
   
 </span>
 
@@ -130,7 +160,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification/" data-via="" data-counturl="http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal/" data-via="" data-counturl="http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal/" >Tweet</a>
   
   
   
@@ -139,10 +169,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2014/09/10/everyone-has-a-plan/" title="Previous Post: everyone has a plan">&laquo; everyone has a plan</a>
+        <a class="basic-alignment left" href="/blog/2015/02/26/turn-off-facebook-game-notification/" title="Previous Post: turn off facebook game notification">&laquo; turn off facebook game notification</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2015/06/22/get-weather-info-in-terminal/" title="Next Post: Get weather info in terminal">Get weather info in terminal &raquo;</a>
       
     </p>
   </footer>
@@ -181,8 +209,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification/';
-        var disqus_url = 'http://stephentseng.com/blog/2015/02/26/turn-off-facebook-game-notification/';
+        var disqus_identifier = 'http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal/';
+        var disqus_url = 'http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal/';
         var disqus_script = 'embed.js';
       
     (function () {

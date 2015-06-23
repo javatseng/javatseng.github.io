@@ -9,7 +9,7 @@
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="After moving from China to US, I can access Facebook without any firewall. One thing bothering me is I always receive game invitation from my friends &hellip;">
+  <meta name="description" content="I sarted to play ansiweather in terminal. After installing script, I got error message: ./ansi weather: line 167: [: !=: unary operator expected. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +67,72 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/06/22/get-weather-info-in-terminal/">Get Weather Info in Terminal</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-06-22T23:04:48-04:00" pubdate data-updated="true">Jun 22<sup>nd</sup>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I sarted to play <a href="https://github.com/fcambus/ansiweather">ansiweather</a> in terminal. After installing script, I got error message: <code>./ansi weather: line 167: [: !=: unary operator expected</code>. Googled it and found the solution on <a href="http://stackoverflow.com/questions/13617843/unary-operator-expected">stackoverflow</a> as usual.</p>
+
+<p>Original code:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">if</span> <span class="o">[</span> <span class="nv">$status_code</span> !<span class="o">=</span> 200 <span class="o">]</span>
+</span><span class='line'><span class="k">then</span>
+</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;ERROR : Cannot fetch weather data for the given location&quot;</span>
+</span><span class='line'>  <span class="nb">exit</span>
+</span><span class='line'><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Modified code:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$status_code&quot;</span> !<span class="o">=</span> <span class="s2">&quot;200&quot;</span> <span class="o">]</span>
+</span><span class='line'><span class="k">then</span>
+</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;ERROR : Cannot fetch weather data for the given location&quot;</span>
+</span><span class='line'>  <span class="nb">exit</span>
+</span><span class='line'><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -534,44 +600,6 @@
 <p><em>Place API</em></p>
 
 <p>place it in <code>~/.pinboard-token</code></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/09/02/how-to-install-wget-in-mac-os/">How to Install Wget in Mac OS</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-02T00:00:00-04:00" pubdate data-updated="true">Sep 2<sup>nd</sup>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Wget is a very powerful CLI tool. However, Mac doesn&rsquo;t have it by default. There are several ways to install. The easiest way is to use homebrew to install. Of course, homebrew has to be installed beforehand. All you need to do is type one command line:</p>
-
-<p><code>$ brew install wget</code></p>
 </div>
   
   
