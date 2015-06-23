@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Commandline | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/commandline/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2015-06-22T23:25:15-04:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Get Weather Info in Terminal]]></title>
+    <link href="http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal/"/>
+    <updated>2015-06-22T23:04:48-04:00</updated>
+    <id>http://stephentseng.com/blog/2015/06/22/get-weather-info-in-terminal</id>
+    <content type="html"><![CDATA[<p>I sarted to play <a href="https://github.com/fcambus/ansiweather">ansiweather</a> in terminal. After installing script, I got error message: <code>./ansi weather: line 167: [: !=: unary operator expected</code>. Googled it and found the solution on <a href="http://stackoverflow.com/questions/13617843/unary-operator-expected">stackoverflow</a> as usual.</p>
+
+<p>Original code:</p>
+
+<pre><code class="shell">
+if [ $status_code != 200 ]
+then
+    echo "ERROR : Cannot fetch weather data for the given location"
+    exit
+fi
+</code></pre>
+
+<p>Modified code:</p>
+
+<pre><code class="shell">
+if [ "$status_code" != "200" ]
+then
+    echo "ERROR : Cannot fetch weather data for the given location"
+    exit
+fi
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
