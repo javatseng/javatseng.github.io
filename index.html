@@ -9,7 +9,13 @@
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="I sarted to play ansiweather in terminal. After installing script, I got error message, ./ansi weather: line 167: [: !=: unary operator expected . &hellip;">
+  <meta name="description" content="When I installed Python package through PIP, I encountered an error message: 1
+2
+3
+4
+5
+6
+/usr/local/lib/python2.7/dist-packages/requests/packages/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +73,59 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/07/03/python-ssl-insecureplatform-error/">Python SSL InsecurePlatform Error</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-07-03T07:42:40-04:00" pubdate data-updated="true">Jul 3<sup>rd</sup>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>When I installed Python package through <code>PIP</code>, I encountered an error message:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python2</span><span class="o">.</span><span class="mi">7</span><span class="o">/</span><span class="n">dist</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">requests</span><span class="o">/</span><span class="n">packages</span><span class="o">/</span><span class="n">urllib3</span>
+</span><span class='line'><span class="o">/</span><span class="n">util</span><span class="o">/</span><span class="n">ssl_</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">79</span><span class="p">:</span> <span class="n">InsecurePlatformWarning</span><span class="p">:</span> <span class="n">A</span> <span class="n">true</span> <span class="n">SSLContext</span> <span class="nb">object</span> <span class="ow">is</span> <span class="ow">not</span>
+</span><span class='line'><span class="n">available</span><span class="o">.</span> <span class="n">This</span> <span class="n">prevents</span> <span class="n">urllib3</span> <span class="kn">from</span> <span class="nn">configuring</span> <span class="nn">SSL</span> <span class="nn">appropriately</span> <span class="nn">and</span>
+</span><span class='line'><span class="n">may</span> <span class="n">cause</span> <span class="n">certain</span> <span class="n">SSL</span> <span class="n">connections</span> <span class="n">to</span> <span class="n">fail</span><span class="o">.</span> <span class="n">For</span> <span class="n">more</span> <span class="n">information</span><span class="p">,</span> <span class="n">see</span>
+</span><span class='line'><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">urllib3</span><span class="o">.</span><span class="n">readthedocs</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">en</span><span class="o">/</span><span class="n">latest</span>
+</span><span class='line'><span class="o">/</span><span class="n">security</span><span class="o">.</span><span class="n">html</span><span class="c">#insecureplatformwarning.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In the end, I found a solution to solve this at <a href="http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package">stackoverflow</a>as usual.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -556,50 +615,6 @@
 
 
   <div class="entry-content"><p>Try to install <a href="https://github.com/sporkrb/spork">Spork</a> and <a href="https://github.com/guard/guard">Guard</a> in order to run Rspec more efficiently. After installing both of them, I typed <code>Guard</code>. Then, the message <code>Could not start Spork server for RSpec</code> came out in terminal. In the end, I found out that when I shut down my VPN, the server started successfully. I guess it took too long to run the code with VPN.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/09/07/using-pinboard-in-command-line/">Using Pinboard in Command Line</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-09-07T00:00:00-04:00" pubdate data-updated="true">Sep 7<sup>th</sup>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have been using <a href="https://pinboard.in">Pinboard</a> for a while. It is  a very powerful bookmarking service with minimum interface. Now I can use <a href="https://github.com/badboy/pinboard-cli">CLI</a> with pinboard. All I have to do is to install a gem and put a api token.</p>
-
-<p><em>Install</em></p>
-
-<p><code>gem install pinboard-cli</code></p>
-
-<p><em>Place API</em></p>
-
-<p>place it in <code>~/.pinboard-token</code></p>
 </div>
   
   

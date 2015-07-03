@@ -9,7 +9,7 @@
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="Wget is a very powerful CLI tool. However, Mac doesn&rsquo;t have it by default. There are several ways to install. The easiest way is to use &hellip;">
+  <meta name="description" content="I have been using Pinboard for a while. It is a very powerful bookmarking service with minimum interface. Now I can use CLI with pinboard. All I have &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +67,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/09/07/using-pinboard-in-command-line/">Using Pinboard in Command Line</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-07T00:00:00-04:00" pubdate data-updated="true">Sep 7<sup>th</sup>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I have been using <a href="https://pinboard.in">Pinboard</a> for a while. It is  a very powerful bookmarking service with minimum interface. Now I can use <a href="https://github.com/badboy/pinboard-cli">CLI</a> with pinboard. All I have to do is to install a gem and put a api token.</p>
+
+<p><em>Install</em></p>
+
+<p><code>gem install pinboard-cli</code></p>
+
+<p><em>Place API</em></p>
+
+<p>place it in <code>~/.pinboard-token</code></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -418,69 +462,6 @@ Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
 
 
   <div class="entry-content"><p>The true delight is in the <em>finding</em> out rather than in the <em>knowing</em>. ~Isaac Asimovg</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/28/vim-swap-file/">Vim Swap File</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-28T18:48:00-04:00" pubdate data-updated="true">Apr 28<sup>th</sup>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I have started to learn how to use Vim recently. The first thing I need to learn is to use Vim to write my blog in Octopress. The one advatage of using Vim is that you fire up Vim inside Termial. Itmight make workflow easier. However. when I finished my article and <code>deploy rake</code>. Here error came.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Stephen@stephenmbp.local~/octopress]$ rake deploy
-</span><span class='line'>cp -r source/_posts/.2013-04-28-test.markdown.swp public/_posts/.2013-04-28-test.markdown.swp
-</span><span class='line'>rake aborted!
-</span><span class='line'>No such file or directory - public/_posts/.2013-04-28-test.markdown.swp
-</span><span class='line'>/Users/Stephen/octopress/Rakefile:229:in `block (2 levels) in &lt;top (required)&gt;'
-</span><span class='line'>/Users/Stephen/octopress/Rakefile:228:in `block in &lt;top (required)&gt;'
-</span><span class='line'>/Users/Stephen/octopress/Rakefile:218:in `block in &lt;top (required)&gt;'
-</span><span class='line'>/Users/Stephen/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `eval'
-</span><span class='line'>/Users/Stephen/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `&lt;main&gt;'
-</span><span class='line'>Tasks: TOP =&gt; copydot
-</span><span class='line'>(See full trace by running task with --trace)</span></code></pre></td></tr></table></div></figure>
-
-
-<p>
-The solution is to put `set noswapfile&#8217; in .vimrc. Disable swapfile.</p>
 </div>
   
   
