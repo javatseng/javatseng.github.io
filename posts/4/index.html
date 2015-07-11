@@ -9,7 +9,7 @@
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="之前在做learn ruby the hard way的练习的时候，一直搞不懂为什么要写test，特别是是对完全没有编程背景的人来说，写test只会把学习弄的更复杂，但最近在做rails tutorial，跟着项目练习的演进，慢慢暸解RSpec，终于知道写test的好处，如果不写test的话， &hellip;">
+  <meta name="description" content="最近在看PeepCode里的meet the command的教程，把Unix的基础系统的学了一下，其中发现视频terminal里面prompt的前缀竟然是host name和full path，再看看自己prompt的前缀又长又没意义，于是网上摸索了一下，该改法如下： 出现full path &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +67,51 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/11/08/how-to-show-full-path-in-terminal/">如何在terminal里出现full Path和host Name</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-08T17:45:00-05:00" pubdate data-updated="true">Nov 8<sup>th</sup>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近在看PeepCode里的<a href="https://peepcode.com/products/meet-the-command-line">meet the command</a>的教程，把Unix的基础系统的学了一下，其中发现视频terminal里面prompt的前缀竟然是host name和full path，再看看自己prompt的前缀又长又没意义，于是网上摸索了一下，该改法如下：</p>
+
+<ul>
+<li><p>出现full path</p></li>
+<li><p>在finder找到<code>~/.bash_profile</code>这个file</p></li>
+<li><p>在档案里面加上<code>export PS1='\u@\H:\w$'</code>这行命令就可以了</p></li>
+<li><p>更改host name</p></li>
+<li><p>直接到 <code>System Preference&gt;Sharing&gt;edit</code> 修改<code>local host name</code>就可以了</p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
