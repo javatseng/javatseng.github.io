@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Dropbox | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/dropbox/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2015-07-11T09:25:11-04:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sync Desktop Folder With Dropbox]]></title>
+    <link href="http://stephentseng.com/blog/2015/07/11/sync-desktop-folder-with-dropbox/"/>
+    <updated>2015-07-11T08:54:55-04:00</updated>
+    <id>http://stephentseng.com/blog/2015/07/11/sync-desktop-folder-with-dropbox</id>
+    <content type="html"><![CDATA[<p>I put all work-related files in my dropbox folder to back up all my files. Like some people, I also like to put ongoing-project files on my computer desktop. One day, I want to back up all my desktop files to my dropbox folder. Found a <a href="http://lifehacker.com/5154698/sync-files-and-folders-outside-your-my-dropbox-folder">article</a> on line. Just need to type a command line in terminal:</p>
+
+<pre><code class="bash">ln -s /path/to/desired-folder ~/Dropbox/desired-folder
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2015-07-11T09:21:37-04:00</updated>
+  <updated>2015-07-11T09:25:11-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Sync Desktop Folder With Dropbox]]></title>
     <link href="http://stephentseng.com/blog/2015/07/11/sync-desktop-folder-with-dropbox/"/>
-    <updated>2015-07-11T00:00:00-04:00</updated>
+    <updated>2015-07-11T08:54:55-04:00</updated>
     <id>http://stephentseng.com/blog/2015/07/11/sync-desktop-folder-with-dropbox</id>
     <content type="html"><![CDATA[<p>I put all work-related files in my dropbox folder to back up all my files. Like some people, I also like to put ongoing-project files on my computer desktop. One day, I want to back up all my desktop files to my dropbox folder. Found a <a href="http://lifehacker.com/5154698/sync-files-and-folders-outside-your-my-dropbox-folder">article</a> on line. Just need to type a command line in terminal:</p>
 
