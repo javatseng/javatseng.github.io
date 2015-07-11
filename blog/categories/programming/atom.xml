@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Programming, | Stephen Tseng]]></title>
+  <title><![CDATA[Category: Programming | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2015-07-03T07:54:13-04:00</updated>
+  <updated>2015-07-11T09:18:53-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
