@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Vim | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2016-02-12T21:39:22-05:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Swap File]]></title>
+    <link href="http://stephentseng.com/blog/2013/04/28/vim-swap-file/"/>
+    <updated>2013-04-28T18:48:00-04:00</updated>
+    <id>http://stephentseng.com/blog/2013/04/28/vim-swap-file</id>
+    <content type="html"><![CDATA[<p>I have started to learn how to use Vim recently. The first thing I need to learn is to use Vim to write my blog in Octopress. The one advatage of using Vim is that you fire up Vim inside Termial. Itmight make workflow easier. However. when I finished my article and <code>deploy rake</code>. Here error came.</p>
+
+<pre><code>Stephen@stephenmbp.local~/octopress]$ rake deploy
+cp -r source/_posts/.2013-04-28-test.markdown.swp public/_posts/.2013-04-28-test.markdown.swp
+rake aborted!
+No such file or directory - public/_posts/.2013-04-28-test.markdown.swp
+/Users/Stephen/octopress/Rakefile:229:in `block (2 levels) in &lt;top (required)&gt;'
+/Users/Stephen/octopress/Rakefile:228:in `block in &lt;top (required)&gt;'
+/Users/Stephen/octopress/Rakefile:218:in `block in &lt;top (required)&gt;'
+/Users/Stephen/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `eval'
+/Users/Stephen/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `&lt;main&gt;'
+Tasks: TOP =&gt; copydot
+(See full trace by running task with --trace)
+</code></pre>
+
+<p>The solution is to put `set noswapfile' in .vimrc. Disable swapfile.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vimperator]]></title>
+    <link href="http://stephentseng.com/blog/2013/04/27/vimperator/"/>
+    <updated>2013-04-27T17:21:00-04:00</updated>
+    <id>http://stephentseng.com/blog/2013/04/27/vimperator</id>
+    <content type="html"><![CDATA[<p>I had been using Chrome for a while. However, I found Chrome occupies too many memory. So, I decided to switch back to FireFox which I had used it for 6 years.</p>
+
+<p>When I learned how to use FireFox again, I discovered a extension called <a href="http://www.vimperator.org/about">&ldquo;Vimperator&rdquo;</a>. It can make FireFox Vim-like browser. At this moment, I am not familiar with Vim. But I decided to give Vimperator a shot. It did lead me to another world. Now I can not live without Vimperator when I browse the internet. At the beginning, it was difficult to use Vimperator. But the more I practice, the more efficiency I am. Now I am interested to learn more about Vim and its design philosophy. I am glad that I tried Vimperator. I find Vim&rsquo;s concept is everywhere. It is a skill set for long-term use.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Tutorial]]></title>
+    <link href="http://stephentseng.com/blog/2013/04/18/vim-tutorial/"/>
+    <updated>2013-04-18T11:25:00-04:00</updated>
+    <id>http://stephentseng.com/blog/2013/04/18/vim-tutorial</id>
+    <content type="html"><![CDATA[<p>I started to learn how to use <a href="http://www.vim.org/">Vim</a>. The fist challenge is I could not find where the official tutorial is. After searching the answer on line, I find this <a href="http://vim.1045645.n5.nabble.com/ViM-Tutorial-td1218542.html">article</a>. The answer is easy. Just fire up terminal and type</p>
+
+<p><code>vimtutor</code></p>
+
+<p>Then, it is done.</p>
+]]></content>
+  </entry>
+  
+</feed>

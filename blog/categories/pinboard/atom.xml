@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Pinboard | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/pinboard/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2016-02-12T21:39:22-05:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using Pinboard in Command Line]]></title>
+    <link href="http://stephentseng.com/blog/2013/09/07/using-pinboard-in-command-line/"/>
+    <updated>2013-09-07T00:00:00-04:00</updated>
+    <id>http://stephentseng.com/blog/2013/09/07/using-pinboard-in-command-line</id>
+    <content type="html"><![CDATA[<p>I have been using <a href="https://pinboard.in">Pinboard</a> for a while. It is  a very powerful bookmarking service with minimum interface. Now I can use <a href="https://github.com/badboy/pinboard-cli">CLI</a> with pinboard. All I have to do is to install a gem and put a api token.</p>
+
+<p><em>Install</em></p>
+
+<p><code>gem install pinboard-cli</code></p>
+
+<p><em>Place API</em></p>
+
+<p>place it in <code>~/.pinboard-token</code></p>
+]]></content>
+  </entry>
+  
+</feed>

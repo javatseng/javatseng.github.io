@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Python | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2016-02-12T21:39:22-05:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Python SSL InsecurePlatform Error]]></title>
+    <link href="http://stephentseng.com/blog/2015/07/03/python-ssl-insecureplatform-error/"/>
+    <updated>2015-07-03T07:42:40-04:00</updated>
+    <id>http://stephentseng.com/blog/2015/07/03/python-ssl-insecureplatform-error</id>
+    <content type="html"><![CDATA[<p>When I installed Python package through <code>PIP</code>, I encountered an error message:</p>
+
+<pre><code class="bash">/usr/local/lib/python2.7/dist-packages/requests/packages/urllib3
+/util/ssl_.py:79: InsecurePlatformWarning: A true SSLContext object is not
+available. This prevents urllib3 from configuring SSL appropriately and 
+may cause certain SSL connections to fail. For more information, see 
+https://urllib3.readthedocs.org/en/latest  
+/security.html#insecureplatformwarning.
+</code></pre>
+
+<p>In the end, I found a solution to solve this at <a href="http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package">stackoverflow</a>as usual.</p>
+]]></content>
+  </entry>
+  
+</feed>
