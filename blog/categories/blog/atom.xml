@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2016-10-14T16:32:09-04:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Start to Blog Again]]></title>
+    <link href="http://stephentseng.com/blog/2016/10/14/start-to-blog/"/>
+    <updated>2016-10-14T15:45:07-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/10/14/start-to-blog</id>
+    <content type="html"><![CDATA[<p>I haven&rsquo;t blogged more than 1 year. I have written down blog ideas in my GTD software, but never really develop them to be articles.</p>
+
+<p>I will start from small and post my random thoughts first. If I never start, things won’t get going.</p>
+]]></content>
+  </entry>
+  
+</feed>

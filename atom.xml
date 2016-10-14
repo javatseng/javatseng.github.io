@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2016-10-14T16:30:42-04:00</updated>
+  <updated>2016-10-14T16:32:09-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -18,7 +18,9 @@
     <link href="http://stephentseng.com/blog/2016/10/14/start-to-blog/"/>
     <updated>2016-10-14T15:45:07-04:00</updated>
     <id>http://stephentseng.com/blog/2016/10/14/start-to-blog</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>I haven&rsquo;t blogged more than 1 year. I have written down blog ideas in my GTD software, but never really develop them to be articles.</p>
+
+<p>I will start from small and post my random thoughts first. If I never start, things won’t get going.</p>
 ]]></content>
   </entry>
   
