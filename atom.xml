@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2016-10-14T15:37:29-04:00</updated>
+  <updated>2016-10-14T15:48:18-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Start to Blog Again]]></title>
+    <link href="http://stephentseng.com/blog/2016/10/14/start-to-blog/"/>
+    <updated>2016-10-14T15:45:07-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/10/14/start-to-blog</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Sync Desktop Folder With Dropbox]]></title>
@@ -417,15 +426,6 @@ Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
     <updated>2013-05-03T10:40:00-04:00</updated>
     <id>http://stephentseng.com/blog/2013/05/03/hack-caps-lock-ley</id>
     <content type="html"><![CDATA[<p>I have been using shortcuts on my Mac keybard recently. The more I use shortcuts, the more I found <code>caps lock key</code> is useless. I decided to replace <code>caps lock key</code> with <code>esc</code>. I found <a href="http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en">PCKeybardHack</a> is a pretty easy solution.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quote2]]></title>
-    <link href="http://stephentseng.com/blog/2013/04/30/quote2/"/>
-    <updated>2013-04-30T23:25:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/04/30/quote2</id>
-    <content type="html"><![CDATA[<p>Emacs is a good operating system, but it lacks a good editor. ~Old saying .</p>
 ]]></content>
   </entry>
   
