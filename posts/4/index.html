@@ -9,7 +9,15 @@
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="最近在同事推荐下开始读了关于Drupal的书籍The Definitive Guide to Drupal 7，这本书共有一千多页，里面的内容涵盖非常的全面，总Drupal7的搭建、项目的管理、社区的参与到模块的开发等等几乎都涵盖了，广度非常的够，几乎开发网站时所涉及的事情里面都提到了， &hellip;">
+  <meta name="description" content="在MAC的Terminal里面没有预装WGET Tool，所以无法执行WGET命令，网上百度了一下找到安装的命令行： 1
+2
+3
+4
+5
+6
+7
+curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
+tar -xzvf wget-1.13.tar &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -67,6 +75,58 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/01/28/wget-tool/">WGET Tool</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-28T17:44:00-05:00" pubdate data-updated="true">Jan 28<sup>th</sup>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>在MAC的Terminal里面没有预装WGET Tool，所以无法执行WGET命令，网上百度了一下找到安装的命令行：</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>curl -O http://ftp.gnu.org/gnu/wget/wget-1.13.tar.gz
+</span><span class='line'>tar -xzvf wget-1.13.tar.gz
+</span><span class='line'>cd wget-1.13
+</span><span class='line'>./configure --with-ssl=openssl
+</span><span class='line'>make
+</span><span class='line'>sudo make install
+</span><span class='line'>which wget  #Should output: /usr/local/bin/wget </span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>

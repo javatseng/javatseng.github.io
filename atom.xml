@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2016-10-14T17:21:13-04:00</updated>
+  <updated>2016-10-15T15:58:03-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Blog Issue]]></title>
+    <link href="http://stephentseng.com/blog/2016/10/15/octopress-blog-issue/"/>
+    <updated>2016-10-15T15:47:34-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/10/15/octopress-blog-issue</id>
+    <content type="html"><![CDATA[<p>Octopress blog issue</p>
+
+<p>I haven&rsquo;t blogged more than one year. When I started to push new article to my <a href="http://octopress.org/">Octopress</a> blog, some error message came out again as I expected<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>error: failed to push some refs to <span class="s1">&#39;git@github.com:username/username.github.io.git&#39;</span>
+</span><span class='line'>
+</span><span class='line'>! <span class="o">[</span>rejected<span class="o">]</span>        master -&gt; master <span class="o">(</span>non-fast-forward<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Like most people do, I started to ask Google. It turned out to be a precess of trial and error. After trying several possible solutions, I finally found <a href="http://stackoverflow.com/questions/17609453/rake-gen-deploy-rejected-in-octopress">one</a> that works:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">cd </span>octopress/_deploy
+</span><span class='line'>git pull origin master
+</span><span class='line'><span class="nb">cd</span> ..
+</span><span class='line'>rake deploy
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Octopress has issues after you upgrade  MacOS<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Start to Blog Again]]></title>
@@ -419,15 +462,6 @@ With this setting, I can just type H or L key once to back or forward.</p>
 List all blogd <code>map &lt;Leader&gt;ol  :OctopressList&lt;CR&gt;</code>
 Rake Generate <code>map &lt;Leader&gt;og  :OctopressGenerate&lt;CR&gt;</code>
 Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hack Caps Lock Ley]]></title>
-    <link href="http://stephentseng.com/blog/2013/05/03/hack-caps-lock-ley/"/>
-    <updated>2013-05-03T10:40:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/05/03/hack-caps-lock-ley</id>
-    <content type="html"><![CDATA[<p>I have been using shortcuts on my Mac keybard recently. The more I use shortcuts, the more I found <code>caps lock key</code> is useless. I decided to replace <code>caps lock key</code> with <code>esc</code>. I found <a href="http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en">PCKeybardHack</a> is a pretty easy solution.</p>
 ]]></content>
   </entry>
   
