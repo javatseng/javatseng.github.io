@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Blog | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2016-10-15T15:58:03-04:00</updated>
+  <updated>2016-10-15T15:59:35-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -18,9 +18,7 @@
     <link href="http://stephentseng.com/blog/2016/10/15/octopress-blog-issue/"/>
     <updated>2016-10-15T15:47:34-04:00</updated>
     <id>http://stephentseng.com/blog/2016/10/15/octopress-blog-issue</id>
-    <content type="html"><![CDATA[<p>Octopress blog issue</p>
-
-<p>I haven&rsquo;t blogged more than one year. When I started to push new article to my <a href="http://octopress.org/">Octopress</a> blog, some error message came out again as I expected<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>:</p>
+    <content type="html"><![CDATA[<p>I haven&rsquo;t blogged more than one year. When I started to push new article to my <a href="http://octopress.org/">Octopress</a> blog, some error message came out again as I expected<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>:</p>
 
 <pre><code class="bash">error: failed to push some refs to 'git@github.com:username/username.github.io.git'
 
