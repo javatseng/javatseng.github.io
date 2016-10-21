@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Command-line | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/command-line/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2016-10-21T14:10:19-04:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Terminal and Command Line]]></title>
+    <link href="http://stephentseng.com/blog/2016/10/21/terminal-and-command-line/"/>
+    <updated>2016-10-21T14:08:12-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/10/21/terminal-and-command-line</id>
+    <content type="html"><![CDATA[<p>I am no programmer, but I like to use terminal and command line on my Mac. Command line is very powerful and fast. When I install Shell script, I always forget the path. Write it down here to remind myself:</p>
+
+<p><code>/usr/local/bin</code></p>
+]]></content>
+  </entry>
+  
+</feed>

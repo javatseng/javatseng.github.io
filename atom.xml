@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2016-10-18T11:02:23-04:00</updated>
+  <updated>2016-10-21T14:10:19-04:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Terminal and Command Line]]></title>
+    <link href="http://stephentseng.com/blog/2016/10/21/terminal-and-command-line/"/>
+    <updated>2016-10-21T14:08:12-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/10/21/terminal-and-command-line</id>
+    <content type="html"><![CDATA[<p>I am no programmer, but I like to use terminal and command line on my Mac. Command line is very powerful and fast. When I install Shell script, I always forget the path. Write it down here to remind myself:</p>
+
+<p><code>/usr/local/bin</code></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress Blog Issue]]></title>
@@ -446,20 +457,6 @@ With this setting, I can just type H or L key once to back or forward.</p>
 <p>Switch to Terminal: <code>crl + z</code></p>
 
 <p>Switch to Vim: <code>fg</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octoeditor]]></title>
-    <link href="http://stephentseng.com/blog/2013/05/14/octoeditor/"/>
-    <updated>2013-05-14T18:56:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/05/14/octoeditor</id>
-    <content type="html"><![CDATA[<p>I have been using Octopress for a while. Since I started to learn Vim, I had been thinking how to integrate Vim with Octopress. My idea is to creat, write, and upload a blog all in Vim. In this way, I don&rsquo;t need to switch between termainal and Vim. After searching for a proper plug-in, I foud a plug-in called <a href="https://github.com/glidenote/octoeditor.vim?source=cc">Octoeditor</a>. With this plug-in, you can do it all in Vim with sevaral shortcuts. Here is my shortcuts:</p>
-
-<p>Crate a blog <code>map &lt;Leader&gt;on  :OctopressNew&lt;CR&gt;</code>
-List all blogd <code>map &lt;Leader&gt;ol  :OctopressList&lt;CR&gt;</code>
-Rake Generate <code>map &lt;Leader&gt;og  :OctopressGenerate&lt;CR&gt;</code>
-Rake Deploy <code>map &lt;Leader&gt;od  :OctopressDeploy&lt;CR&gt;</code></p>
 ]]></content>
   </entry>
   
