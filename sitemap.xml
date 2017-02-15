@@ -9,6 +9,12 @@
   </url>
   
   <url>
+    <loc>http://stephentseng.com/blog/2016/10/16/build-a-website-for-china/</loc>
+    <lastmod>2016-10-16T17:22:53-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://stephentseng.com/blog/2016/10/15/octopress-blog-issue/</loc>
     <lastmod>2016-10-15T15:47:34-04:00</lastmod>
     <priority>0.8</priority>
@@ -17,12 +23,6 @@
   <url>
     <loc>http://stephentseng.com/blog/2016/10/14/start-to-blog/</loc>
     <lastmod>2016-10-14T15:45:07-04:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://stephentseng.com/blog/2016/09/01/build-a-website-for-china/</loc>
-    <lastmod>2016-09-01T17:22:53-04:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -245,49 +245,49 @@
   
   <url>
     <loc>http://stephentseng.com/blog/</loc>
-    <lastmod>2017-02-15T16:27:42-05:00</lastmod>
+    <lastmod>2017-02-15T16:38:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://stephentseng.com/archives/</loc>
-    <lastmod>2017-02-15T16:27:42-05:00</lastmod>
+    <lastmod>2017-02-15T16:38:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://stephentseng.com/</loc>
-    <lastmod>2017-02-15T16:27:42-05:00</lastmod>
+    <lastmod>2017-02-15T16:38:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>http://stephentseng.com/blog/archives/</loc>
-    <lastmod>2017-02-15T16:27:42-05:00</lastmod>
+    <lastmod>2017-02-15T16:38:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://stephentseng.com/contact/</loc>
-    <lastmod>2017-02-15T16:27:42-05:00</lastmod>
+    <lastmod>2017-02-15T16:38:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://stephentseng.com/about/</loc>
-    <lastmod>2017-02-15T16:27:42-05:00</lastmod>
+    <lastmod>2017-02-15T16:38:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://stephentseng.com/newsletter/</loc>
-    <lastmod>2017-02-15T16:27:42-05:00</lastmod>
+    <lastmod>2017-02-15T16:38:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
