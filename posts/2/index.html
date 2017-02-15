@@ -9,8 +9,7 @@
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="&ldquo;Be like a duck. Calm on the surface, but always paddling like the dickens underneath.&rdquo; - Michael Cain
-">
+  <meta name="description" content="I need to deal with Drupal and WordPress during my daily work. When it comes to my personal blog, I want something lightweight, simple, and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -84,6 +83,132 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/06/octopress-publisher/">Octopress Publisher</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-06T07:54:17-04:00" pubdate data-updated="true">Sep 6<sup>th</sup>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I need to deal with Drupal and WordPress during my daily work. When it comes to my personal blog, I want something lightweight, simple, and straightforward. After trying different blog platform, I decided to stay with <a href="http://octopress.org/">Octopress</a>.</p>
+
+<p>While using Octopress several times, I realized I always had to fire up terminal and type the certain commands, e,g <code>rake deploy</code> and <code>rake generate</code>. Thus, I started to think how I could automate this receptive work. I tried several solutions, e.g keyboard mastero macro and BBEdit applescript. Finally, I found the simplest workflow for myself, <a href="http://www.alfredapp.com/">Alred</a> and <a href="http://www.alfredforum.com/topic/2289-octopress-publisher/">Octopress publisher</a> workflow.</p>
+
+<p>It is easier to generate and publish post to Octopress through Octoppress publisher. All I need to do is type keyword <code>blog</code> and <code>blog generate</code> in my Alfred. It is done.</p>
+
+<p>When I installed Octopress publisher in the beginning. The function of <code>blog generate</code> didn&rsquo;t work. I looked into the script and added one line script. It works as I wish now.</p>
+
+<p><strong>Original script</strong></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">#Path to your octopress installation</span>
+</span><span class='line'><span class="nv">OCTOPATH</span><span class="o">=</span><span class="s1">&#39;/Users/stephentseng/Dropbox/octopress&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span> <span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span><span class='line'><span class="k">      </span><span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">cd</span> <span class="nv">$OCTOPATH</span> &gt;&gt; /dev/null
+</span><span class='line'>rvm use 1.9.3@octopress &gt;&gt; /dev/null
+</span><span class='line'>rake generate &gt;&gt; /dev/null
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$?</span> -eq 0 <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Blog generated successfully!&quot;</span>
+</span><span class='line'><span class="k">else</span>
+</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Errors while generating static content. Check the console.&quot;</span>
+</span><span class='line'><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>Modified script</strong></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">#Path to your octopress installation</span>
+</span><span class='line'><span class="nv">OCTOPATH</span><span class="o">=</span><span class="s1">&#39;/Users/stephentseng/Dropbox/octopress&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span> <span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span><span class='line'><span class="k">      </span><span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
+</span><span class='line'><span class="k">fi</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">cd</span> <span class="nv">$OCTOPATH</span> &gt;&gt; /dev/null
+</span><span class='line'>rvm use 1.9.3@octopress &gt;&gt; /dev/null
+</span><span class='line'>rake generate &gt;&gt; /dev/null
+</span><span class='line'>rake deploy &gt;&gt; /dev/null
+</span><span class='line'>
+</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$?</span> -eq 0 <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
+</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Blog generated successfully!&quot;</span>
+</span><span class='line'><span class="k">else</span>
+</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Errors while generating static content. Check the console.&quot;</span>
+</span><span class='line'><span class="k">fi</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -452,48 +577,6 @@ With this setting, I can just type H or L key once to back or forward.</p>
 <li><p>Open new window <code>ctrl + w + n</code></p></li>
 </ul>
 
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/07/switch-between-vim-and-terminal/">Switch Between Vim and Terminal</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-06-07T16:51:00-04:00" pubdate data-updated="true">Jun 7<sup>th</sup>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>One of Vim&rsquo;s advantages is that you can switch between vim and terminal when using terminai. Here is the shortcut:</p>
-
-<p>Opne vim in terminal: <code>vim</code></p>
-
-<p>Switch to Terminal: <code>crl + z</code></p>
-
-<p>Switch to Vim: <code>fg</code></p>
 </div>
   
   

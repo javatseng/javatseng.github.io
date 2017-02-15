@@ -233,6 +233,44 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2016/09/01/build-a-website-for-china/">Building a Website in China Is Different</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2016-09-01T17:22:53-04:00" pubdate data-updated="true">Sep 1<sup>st</sup>, 2016</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I published this <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">article</a> at my <a href="http://dminorstudio.com/en/blog">dminorstudio</a> website. This article summarized our learning from our client projects. China has a very dynamic internet market. The regulations change all the time. I plan to keep it updated in the future.</p>
+
+<blockquote><p>The China internet market is different from the rest of the world. When most of internet world uses Google, YouTube, and Twitter, the Chinese internet world has its own rules. Due to internet censorship, most mainstream web services might not work in China. When our non-Chinese clients want to build up a website in China, the first thing we will do is to switch their mindset from mainstream world to the unique Chinese world.</p></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2015/07/11/sync-desktop-folder-with-dropbox/">Sync Desktop Folder With Dropbox</a></h1>
     
     
@@ -521,132 +559,6 @@
 <p>http://pygments.org/docs/lexers<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/09/06/octopress-publisher/">Octopress Publisher</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-09-06T07:54:17-04:00" pubdate data-updated="true">Sep 6<sup>th</sup>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I need to deal with Drupal and WordPress during my daily work. When it comes to my personal blog, I want something lightweight, simple, and straightforward. After trying different blog platform, I decided to stay with <a href="http://octopress.org/">Octopress</a>.</p>
-
-<p>While using Octopress several times, I realized I always had to fire up terminal and type the certain commands, e,g <code>rake deploy</code> and <code>rake generate</code>. Thus, I started to think how I could automate this receptive work. I tried several solutions, e.g keyboard mastero macro and BBEdit applescript. Finally, I found the simplest workflow for myself, <a href="http://www.alfredapp.com/">Alred</a> and <a href="http://www.alfredforum.com/topic/2289-octopress-publisher/">Octopress publisher</a> workflow.</p>
-
-<p>It is easier to generate and publish post to Octopress through Octoppress publisher. All I need to do is type keyword <code>blog</code> and <code>blog generate</code> in my Alfred. It is done.</p>
-
-<p>When I installed Octopress publisher in the beginning. The function of <code>blog generate</code> didn&rsquo;t work. I looked into the script and added one line script. It works as I wish now.</p>
-
-<p><strong>Original script</strong></p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'>
-</span><span class='line'><span class="c">#Path to your octopress installation</span>
-</span><span class='line'><span class="nv">OCTOPATH</span><span class="o">=</span><span class="s1">&#39;/Users/stephentseng/Dropbox/octopress&#39;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-</span><span class='line'><span class="k">      </span><span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
-</span><span class='line'><span class="k">fi</span>
-</span><span class='line'>
-</span><span class='line'><span class="nb">cd</span> <span class="nv">$OCTOPATH</span> &gt;&gt; /dev/null
-</span><span class='line'>rvm use 1.9.3@octopress &gt;&gt; /dev/null
-</span><span class='line'>rake generate &gt;&gt; /dev/null
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$?</span> -eq 0 <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Blog generated successfully!&quot;</span>
-</span><span class='line'><span class="k">else</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Errors while generating static content. Check the console.&quot;</span>
-</span><span class='line'><span class="k">fi</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p><strong>Modified script</strong></p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#!/bin/bash</span>
-</span><span class='line'>
-</span><span class='line'><span class="c">#Path to your octopress installation</span>
-</span><span class='line'><span class="nv">OCTOPATH</span><span class="o">=</span><span class="s1">&#39;/Users/stephentseng/Dropbox/octopress&#39;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> -s <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span> <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-</span><span class='line'><span class="k">      </span><span class="nb">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
-</span><span class='line'><span class="k">fi</span>
-</span><span class='line'>
-</span><span class='line'><span class="nb">cd</span> <span class="nv">$OCTOPATH</span> &gt;&gt; /dev/null
-</span><span class='line'>rvm use 1.9.3@octopress &gt;&gt; /dev/null
-</span><span class='line'>rake generate &gt;&gt; /dev/null
-</span><span class='line'>rake deploy &gt;&gt; /dev/null
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="o">[[</span> <span class="nv">$?</span> -eq 0 <span class="o">]]</span> <span class="p">;</span> <span class="k">then</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Blog generated successfully!&quot;</span>
-</span><span class='line'><span class="k">else</span>
-</span><span class='line'><span class="k">    </span><span class="nb">echo</span> <span class="s2">&quot;Errors while generating static content. Check the console.&quot;</span>
-</span><span class='line'><span class="k">fi</span>
-</span></code></pre></td></tr></table></div></figure>
 
 </div>
   

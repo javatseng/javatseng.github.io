@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Website | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/website/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2017-02-15T16:27:42-05:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Building a Website in China Is Different]]></title>
+    <link href="http://stephentseng.com/blog/2016/09/01/build-a-website-for-china/"/>
+    <updated>2016-09-01T17:22:53-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/09/01/build-a-website-for-china</id>
+    <content type="html"><![CDATA[<p>I published this <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">article</a> at my <a href="http://dminorstudio.com/en/blog">dminorstudio</a> website. This article summarized our learning from our client projects. China has a very dynamic internet market. The regulations change all the time. I plan to keep it updated in the future.</p>
+
+<blockquote><p>The China internet market is different from the rest of the world. When most of internet world uses Google, YouTube, and Twitter, the Chinese internet world has its own rules. Due to internet censorship, most mainstream web services might not work in China. When our non-Chinese clients want to build up a website in China, the first thing we will do is to switch their mindset from mainstream world to the unique Chinese world.</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>
