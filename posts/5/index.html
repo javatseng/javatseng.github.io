@@ -5,11 +5,14 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Terminal and Command Line - Stephen Tseng</title>
+  <title>Stephen Tseng</title>
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="I am no programmer, but I like to use terminal and command line on my Mac. Command line is very powerful and fast. When I install Shell script, I &hellip;">
+  <meta name="description" content="最近textmate用的比较多，在做ruby on rails tutorial需要创建scss档案，创建了后发现textmate不支持，问了一下google大神，找到安装代码： 1
+2
+3
+mkdir -p ~/Library/Application\ Support/TextMate/ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +21,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://stephentseng.com/blog/2016/10/21/terminal-and-command-line">
+  <link rel="canonical" href="http://stephentseng.com/posts/5">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="http://feeds.feedburner.com/StephenTseng" rel="alternate" title="Stephen Tseng" type="application/atom+xml">
@@ -81,12 +84,15 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div>
-<article class="hentry" role="article">
+      <div class="blog-index">
   
+  
+  
+    <article>
+      
   <header>
     
-      <h1 class="entry-title">Terminal and Command Line</h1>
+      <h1 class="entry-title"><a href="/blog/2012/10/25/how-to-install-scss-support-package-in-textmate/">如何在textmate上安装scss档案支持</a></h1>
     
     
       <p class="meta">
@@ -102,69 +108,37 @@
   
 
 
-<time datetime="2016-10-21T14:08:12-04:00" pubdate data-updated="true">Oct 21<sup>st</sup>, 2016</time>
+<time datetime="2012-10-25T11:09:00-04:00" pubdate data-updated="true">Oct 25<sup>th</sup>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I am no programmer, but I like to use terminal and command line on my Mac. Command line is very powerful and fast. When I install Shell script, I always forget the path. Write it down here to remind myself:</p>
+  <div class="entry-content"><p>最近textmate用的比较多，在做ruby on rails tutorial需要创建scss档案，创建了后发现textmate不支持，问了一下google大神，找到安装代码：</p>
 
-<p><code>/usr/local/bin</code></p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+</span><span class='line'>cd ~/Library/Application\ Support/TextMate/Bundles
+</span><span class='line'>git clone https://github.com/kuroir/SCSS.tmbundle.git "SCSS.tmbundle"</span></code></pre></td></tr></table></div></figure>
+
 </div>
-
-
-  <footer>
-    <p class="meta">
-      <!-- 
-
   
-
-<span class="byline author vcard">Authored by <span class="fn">Stephen Tseng</span></span>
-
-      
-
-
-
-
-
-
-
-
   
 
 
-<time datetime="2016-10-21T14:08:12-04:00" pubdate data-updated="true">Oct 21<sup>st</sup>, 2016</time>
- -->
-      
-
-<span class="categories">
+    </article>
   
-    <a class='category' href='/blog/categories/command-line/'>command-line</a>
-  
-</span>
-
-
-    </p>
+  <div class="pagination">
     
-      <div class="sharing">
-  
-  
-  
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/posts/4">Newer &rarr;</a>
+    
+  </div>
 </div>
-
-    
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2016/10/16/build-a-website-for-china/" title="Previous Post: Building a website in China is different">&laquo; Building a website in China is different</a>
-      
-      
-        <a class="basic-alignment right" href="/blog/2016/11/05/be-a-remote-worker/" title="Next Post: be a remote worker">be a remote worker &raquo;</a>
-      
-    </p>
-  </footer>
-  
 <aside class="sidebar">
   
     <section>
@@ -194,19 +168,6 @@
   
 </aside>
 
-  
-</article>
-
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-  </section>
-
-
-</div>
-
-
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -221,10 +182,7 @@
       var disqus_shortname = 'stephentseng';
       
         
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://stephentseng.com/blog/2016/10/21/terminal-and-command-line/';
-        var disqus_url = 'http://stephentseng.com/blog/2016/10/21/terminal-and-command-line/';
-        var disqus_script = 'embed.js';
+        var disqus_script = 'count.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

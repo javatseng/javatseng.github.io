@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2017-02-15T16:38:48-05:00</updated>
+  <updated>2017-02-15T20:58:44-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Be a Remote Worker]]></title>
+    <link href="http://stephentseng.com/blog/2016/11/05/be-a-remote-worker/"/>
+    <updated>2016-11-05T21:54:54-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/11/05/be-a-remote-worker</id>
+    <content type="html"><![CDATA[<p>Working remotely is the trend in the world. I can expect there will be more remote workers in the next few years, especially in internet-related industries. Remote working is also a skill which I keep learning and improving. I summarize my learning on dminorstudio <a href="http://dminorstudio.com/en/blog/how-i-work-remote-worker">blog</a>.</p>
+
+<blockquote><p>Being a remote worker for more than two years, I have learned few things to make it work. If you can find out what your best way to work remotely is. Working remotely will be more productive than working in the office when it comes to creative work.</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Terminal and Command Line]]></title>
@@ -437,22 +448,6 @@
 
 <p>
 With this setting, I can just type H or L key once to back or forward.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Open New Window in Vim]]></title>
-    <link href="http://stephentseng.com/blog/2013/06/07/open-new-window-in-vim/"/>
-    <updated>2013-06-07T17:28:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/06/07/open-new-window-in-vim</id>
-    <content type="html"><![CDATA[<p>The below are the frequently-used shortcuts for vim window:</p>
-
-<ul>
-<li><p>Switch windows: <code>ctrl + w</code></p></li>
-<li><p>Quit windows: <code>ctrl + w + q</code></p></li>
-<li><p>Open new window <code>ctrl + w + n</code></p></li>
-</ul>
-
 ]]></content>
   </entry>
   
