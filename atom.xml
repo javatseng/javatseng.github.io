@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2017-02-15T20:58:44-05:00</updated>
+  <updated>2017-02-16T18:26:05-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Be a Remote Worker]]></title>
+    <link href="http://stephentseng.com/blog/2016/11/05/be-a-remote-worker/"/>
+    <updated>2016-11-05T21:54:54-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/11/05/be-a-remote-worker</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Be a Remote Worker]]></title>
@@ -95,6 +104,17 @@
     <content type="html"><![CDATA[<p>I haven&rsquo;t blogged more than 1 year. I have written down blog ideas in my GTD software, but never really develop them to be articles.</p>
 
 <p>I will start from small and post my random thoughts first. If I never start, things won’t get going.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[We Always Need Tools for Work]]></title>
+    <link href="http://stephentseng.com/blog/2016/01/05/tool-for-work/"/>
+    <updated>2016-01-05T18:23:42-05:00</updated>
+    <id>http://stephentseng.com/blog/2016/01/05/tool-for-work</id>
+    <content type="html"><![CDATA[<p>I have changed tools we used since I co-founded this company. It takes time to find the right tool to fit our workflow and culture. Also, there is always switch cost to make the team switch. I wish we can find one tool to serve all the purposes and to use it forever. But, the truth is that it is impossible in the internet industry. I mentioned <a href="http://dminorstudio.com/en/blog/tools-we-use-work">5 tools</a> we currently use on the dminorstudio <a href="http://dminorstudio.com/en/blog/tools-we-use-work">blog</a>. I hope we don’t need to change any of them for a while.</p>
+
+<blockquote><p>As a Drupal-based web development agency and a remote team, we can not work without online tools. We found it is impossible to use only one tool to serve all purposes. So, We need to integrate several tools into our workflow. Each tool has its own purpose.</p></blockquote>
 ]]></content>
   </entry>
   
@@ -417,37 +437,6 @@
     <content type="html"><![CDATA[<p>Wget is a very powerful CLI tool. However, Mac doesn&rsquo;t have it by default. There are several ways to install. The easiest way is to use homebrew to install. Of course, homebrew has to be installed beforehand. All you need to do is type one command line:</p>
 
 <p><code>$ brew install wget</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Home Key on Macbook Pro]]></title>
-    <link href="http://stephentseng.com/blog/2013/06/17/home-key-on-macbook-pro/"/>
-    <updated>2013-06-17T19:07:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/06/17/home-key-on-macbook-pro</id>
-    <content type="html"><![CDATA[<p>Mac app TaskPaper is my daily-use GTD app. I have digg the shortcut of TaskPaper. However, there were three shortcuts I could not figure out. They are home key and page up/down key. There are no suck keys on my Macbook pro keyboard. After posting my question on TaskPaper forum. someone answered my question:</p>
-
-<p><code>Home key = command+fn+left arrow</code></p>
-
-<p><code>page down/up=command+fn+down/up arrow</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Change H and L Keys in Vimperator]]></title>
-    <link href="http://stephentseng.com/blog/2013/06/10/change-h-and-l-keys-in-vimperator/"/>
-    <updated>2013-06-10T18:34:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/06/10/change-h-and-l-keys-in-vimperator</id>
-    <content type="html"><![CDATA[<p>I have used Firefox plug-in Vimperator for a while. The default shortcut of back and forward is <code>shift + H</code> and <code>shift + L</code> in Vimperator. I found it is not efficiency enough to type two keys. I added two lines to <code>vimrc</code> file:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>noremap h &lt;S-h&gt;
-</span><span class='line'>noremap l &lt;S-l&gt;</span></code></pre></td></tr></table></div></figure>
-
-
-<p>
-With this setting, I can just type H or L key once to back or forward.</p>
 ]]></content>
   </entry>
   

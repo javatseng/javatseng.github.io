@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Remote, | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/remote/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2017-02-15T20:58:44-05:00</updated>
+  <updated>2017-02-16T18:26:05-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Be a Remote Worker]]></title>
+    <link href="http://stephentseng.com/blog/2016/11/05/be-a-remote-worker/"/>
+    <updated>2016-11-05T21:54:54-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/11/05/be-a-remote-worker</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Be a Remote Worker]]></title>

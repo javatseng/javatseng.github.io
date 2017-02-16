@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tool | Stephen Tseng]]></title>
+  <link href="http://stephentseng.com/blog/categories/tool/atom.xml" rel="self"/>
+  <link href="http://stephentseng.com/"/>
+  <updated>2017-02-16T18:26:05-05:00</updated>
+  <id>http://stephentseng.com/</id>
+  <author>
+    <name><![CDATA[Stephen Tseng]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[We Always Need Tools for Work]]></title>
+    <link href="http://stephentseng.com/blog/2016/01/05/tool-for-work/"/>
+    <updated>2016-01-05T18:23:42-05:00</updated>
+    <id>http://stephentseng.com/blog/2016/01/05/tool-for-work</id>
+    <content type="html"><![CDATA[<p>I have changed tools we used since I co-founded this company. It takes time to find the right tool to fit our workflow and culture. Also, there is always switch cost to make the team switch. I wish we can find one tool to serve all the purposes and to use it forever. But, the truth is that it is impossible in the internet industry. I mentioned <a href="http://dminorstudio.com/en/blog/tools-we-use-work">5 tools</a> we currently use on the dminorstudio <a href="http://dminorstudio.com/en/blog/tools-we-use-work">blog</a>. I hope we don’t need to change any of them for a while.</p>
+
+<blockquote><p>As a Drupal-based web development agency and a remote team, we can not work without online tools. We found it is impossible to use only one tool to serve all purposes. So, We need to integrate several tools into our workflow. Each tool has its own purpose.</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>
