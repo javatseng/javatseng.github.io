@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2017-02-16T18:30:04-05:00</updated>
+  <updated>2017-02-16T18:43:37-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Host Your Website]]></title>
+    <link href="http://stephentseng.com/blog/2017/02/03/host-your-website/"/>
+    <updated>2017-02-03T18:38:26-05:00</updated>
+    <id>http://stephentseng.com/blog/2017/02/03/host-your-website</id>
+    <content type="html"><![CDATA[<p>This article is <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">how to build a website for Chinese market</a> series 2. I focus on the server service this time. There will be more articles in the future.</p>
+
+<blockquote><p>We mentioned <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">how to build a website for Chinese market</a> in the previous article. We will emphasize the cloud service provider on this article.</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[We Always Need Tools for Work]]></title>
@@ -428,19 +439,6 @@
     <content type="html"><![CDATA[<p>Wget is a very powerful CLI tool. However, Mac doesn&rsquo;t have it by default. There are several ways to install. The easiest way is to use homebrew to install. Of course, homebrew has to be installed beforehand. All you need to do is type one command line:</p>
 
 <p><code>$ brew install wget</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Home Key on Macbook Pro]]></title>
-    <link href="http://stephentseng.com/blog/2013/06/17/home-key-on-macbook-pro/"/>
-    <updated>2013-06-17T19:07:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/06/17/home-key-on-macbook-pro</id>
-    <content type="html"><![CDATA[<p>Mac app TaskPaper is my daily-use GTD app. I have digg the shortcut of TaskPaper. However, there were three shortcuts I could not figure out. They are home key and page up/down key. There are no suck keys on my Macbook pro keyboard. After posting my question on TaskPaper forum. someone answered my question:</p>
-
-<p><code>Home key = command+fn+left arrow</code></p>
-
-<p><code>page down/up=command+fn+down/up arrow</code></p>
 ]]></content>
   </entry>
   
