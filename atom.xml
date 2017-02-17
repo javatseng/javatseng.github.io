@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2017-02-16T18:51:47-05:00</updated>
+  <updated>2017-02-16T20:17:48-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Host Your Website]]></title>
+    <link href="http://stephentseng.com/blog/2017/02/16/host-your-website/"/>
+    <updated>2017-02-16T18:38:26-05:00</updated>
+    <id>http://stephentseng.com/blog/2017/02/16/host-your-website</id>
+    <content type="html"><![CDATA[<p>This article is <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">how to build a website for Chinese market</a> series 2. I focus on the server service this time. There will be more articles in the future.</p>
+
+<blockquote><p>We mentioned <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">how to build a website for Chinese market</a> in the previous article. We will emphasize the cloud service provider on this article.</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Host Your Website]]></title>
@@ -428,17 +439,6 @@
 <p><em>Place API</em></p>
 
 <p>place it in <code>~/.pinboard-token</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to Install Wget in Mac OS]]></title>
-    <link href="http://stephentseng.com/blog/2013/09/02/how-to-install-wget-in-mac-os/"/>
-    <updated>2013-09-02T00:00:00-04:00</updated>
-    <id>http://stephentseng.com/blog/2013/09/02/how-to-install-wget-in-mac-os</id>
-    <content type="html"><![CDATA[<p>Wget is a very powerful CLI tool. However, Mac doesn&rsquo;t have it by default. There are several ways to install. The easiest way is to use homebrew to install. Of course, homebrew has to be installed beforehand. All you need to do is type one command line:</p>
-
-<p><code>$ brew install wget</code></p>
 ]]></content>
   </entry>
   
