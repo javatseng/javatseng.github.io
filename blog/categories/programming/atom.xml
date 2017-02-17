@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Programming | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2017-02-17T15:35:19-05:00</updated>
+  <updated>2017-02-17T15:48:23-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -28,7 +28,7 @@ https://urllib3.readthedocs.org/en/latest
 /security.html#insecureplatformwarning.
 </code></pre>
 
-<p>In the end, I found a solution to solve this at <a href="http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package">stackoverflow</a>as usual.</p>
+<p>In the end, I found a solution to solve this at <a href="http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package">stackoverflow</a> as usual.</p>
 ]]></content>
   </entry>
   

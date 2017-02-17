@@ -4,7 +4,7 @@
   <title><![CDATA[Stephen Tseng]]></title>
   <link href="http://stephentseng.com/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2017-02-17T15:35:19-05:00</updated>
+  <updated>2017-02-17T15:48:23-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -158,7 +158,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>In the end, I found a solution to solve this at <a href="http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package">stackoverflow</a>as usual.</p>
+<p>In the end, I found a solution to solve this at <a href="http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package">stackoverflow</a> as usual.</p>
 ]]></content>
   </entry>
   
@@ -363,7 +363,7 @@
     <link href="http://stephentseng.com/blog/2013/12/01/be-like-a-duck/"/>
     <updated>2013-12-01T00:00:00-05:00</updated>
     <id>http://stephentseng.com/blog/2013/12/01/be-like-a-duck</id>
-    <content type="html"><![CDATA[<p>&ldquo;Be like a duck. Calm on the surface, but always paddling like the dickens underneath.&rdquo; - Michael Cain</p>
+    <content type="html"><![CDATA[<blockquote><p>&ldquo;Be like a duck. Calm on the surface, but always paddling like the dickens underneath.&rdquo; - Michael Cain</p></blockquote>
 ]]></content>
   </entry>
   
