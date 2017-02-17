@@ -4,7 +4,7 @@
   <title><![CDATA[Category: China | Stephen Tseng]]></title>
   <link href="http://stephentseng.com/blog/categories/china/atom.xml" rel="self"/>
   <link href="http://stephentseng.com/"/>
-  <updated>2017-02-16T20:33:41-05:00</updated>
+  <updated>2017-02-16T21:14:28-05:00</updated>
   <id>http://stephentseng.com/</id>
   <author>
     <name><![CDATA[Stephen Tseng]]></name>
@@ -21,6 +21,17 @@
     <content type="html"><![CDATA[<p>This article is <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">how to build a website for Chinese market</a> series 2. I focus on the server service this time. There will be more articles in the future.</p>
 
 <blockquote><p>We mentioned <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">how to build a website for Chinese market</a> in the previous article. We will emphasize the cloud service provider on this article.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Building a Website in China Is Different]]></title>
+    <link href="http://stephentseng.com/blog/2016/10/16/build-a-website-for-china/"/>
+    <updated>2016-10-16T17:22:53-04:00</updated>
+    <id>http://stephentseng.com/blog/2016/10/16/build-a-website-for-china</id>
+    <content type="html"><![CDATA[<p>I published this <a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">article</a> at my <a href="http://dminorstudio.com/en/blog">dminorstudio</a> website. This article summarized our learning from our client projects. China has a very dynamic internet market. The regulations change all the time. I plan to keep it updated in the future.</p>
+
+<blockquote><p>The China internet market is different from the rest of the world. When most of internet world uses Google, YouTube, and Twitter, the Chinese internet world has its own rules. Due to internet censorship, most mainstream web services might not work in China. When our non-Chinese clients want to build up a website in China, the first thing we will do is to switch their mindset from mainstream world to the unique Chinese world.</p></blockquote>
 ]]></content>
   </entry>
   
