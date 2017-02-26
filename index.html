@@ -9,7 +9,7 @@
   <meta name="author" content="Stephen Tseng">
 
   
-  <meta name="description" content="This article is how to build a website for Chinese market series 2. I focus on the server service this time. There will be more articles in the &hellip;">
+  <meta name="description" content="I went to a Drupal event two weeks ago. It was an unconference event. I planned to present a topic there. I didn&rsquo;t know how unconference worked &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,6 +83,72 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+
+  <header>
+
+    
+
+      <h1 class="entry-title"><a href="/blog/2017/02/26/attend-unconference/">Attend Unconference</a></h1>
+
+    
+
+    
+
+      <p class="meta">
+
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2017-02-26T17:04:04-05:00" pubdate data-updated="true">Feb 26<sup>th</sup>, 2017</time>
+
+        
+
+        
+
+      </p>
+
+    
+
+  </header>
+
+
+
+
+
+  <div class="entry-content"><p>I went to a <a href="https://www.drupal.org/">Drupal</a> event two weeks ago. It was an <a href="https://en.wikipedia.org/wiki/Unconference">unconference</a> event. I planned to present a topic there. I didn&rsquo;t know how unconference worked until that day. There was a planning session before the conference started. During the planning session, people will decide who will present via vote. In the end, my topic wasn&rsquo;t chosen. Here is my learning:</p>
+
+<ol>
+<li><strong>Don’t only prepare for your presentation.</strong> I spent two weeks to prepare for my presentation. But I didn&rsquo;t spend enough time to figure out how unconference works. When I decided to present in a unconference, I should figure out how they chose the topic. More importantly, I should contact the organizer for the details. My presentation is important, but knowing how I can present is important, too.</li>
+<li><strong>Prepare for your pitch.</strong> This is very important. When I was in the planning session, I saw that some presenters stood up to explain what they were going to talk. It is actually a sales pitch. You need to prepare a sales pitch to convince people of voting for your topic.</li>
+<li><strong>Understand your audience.</strong> The other thing I missed is I should have understood my audience more. It was a tech event. Most participants are developers. They came there to learn things and are interested in tech stuff. My topic was related to china and marketing. It would not hit the target.</li>
+<li><strong>Make your topic relevant and not too narrow.</strong> This is associated with the point above. You need to make your topic align with audience&rsquo;s interest. My topic was “<a href="http://dminorstudio.com/en/blog/how-build-website-chinese-market">how to build a website for Chinese market</a>.” It didn&rsquo;t interest the audience enough. Also, my topic might be narrow. If I can make the scope of my topic more general and more technical, at least title, It would have passed the vote.</li>
+</ol>
+
+
+<p>Although I didn&rsquo;t make the presentation there, I still learned a lot. My first goal to present there is to test my idea. Given the vote results, I know my idea didn&rsquo;t interest the audience there. Failure is not a necessarily a bad thing. You learned more from failure than success.</p>
+</div>
+
+  
+
+  
+
+
+
+
+    </article>
   
   
     <article>
@@ -645,92 +711,6 @@
 
 
 <p>In the end, I found a solution to solve this at <a href="http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package">stackoverflow</a> as usual.</p>
-</div>
-
-  
-
-  
-
-
-
-
-    </article>
-  
-  
-    <article>
-      
-
-  <header>
-
-    
-
-      <h1 class="entry-title"><a href="/blog/2015/06/22/get-weather-info-in-terminal/">Get Weather Info in Terminal</a></h1>
-
-    
-
-    
-
-      <p class="meta">
-
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-06-22T23:04:48-04:00" pubdate data-updated="true">Jun 22<sup>nd</sup>, 2015</time>
-
-        
-
-        
-
-      </p>
-
-    
-
-  </header>
-
-
-
-
-
-  <div class="entry-content"><p>I sarted to play <a href="https://github.com/fcambus/ansiweather">ansiweather</a> in terminal. After installing script, I got error message, <code>./ansi weather: line 167: [: !=: unary operator expected</code> . Googled it and found the solution on <a href="http://stackoverflow.com/questions/13617843/unary-operator-expected">stackoverflow</a> as usual.</p>
-
-<p>Original code:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">if</span> <span class="o">[</span> <span class="nv">$status_code</span> !<span class="o">=</span> 200 <span class="o">]</span>
-</span><span class='line'><span class="k">then</span>
-</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;ERROR : Cannot fetch weather data for the given location&quot;</span>
-</span><span class='line'>  <span class="nb">exit</span>
-</span><span class='line'><span class="k">fi</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Modified code:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="k">if</span> <span class="o">[</span> <span class="s2">&quot;$status_code&quot;</span> !<span class="o">=</span> <span class="s2">&quot;200&quot;</span> <span class="o">]</span>
-</span><span class='line'><span class="k">then</span>
-</span><span class='line'><span class="k">  </span><span class="nb">echo</span> <span class="s2">&quot;ERROR : Cannot fetch weather data for the given location&quot;</span>
-</span><span class='line'>  <span class="nb">exit</span>
-</span><span class='line'><span class="k">fi</span>
-</span></code></pre></td></tr></table></div></figure>
-
 </div>
 
   
